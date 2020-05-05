@@ -1,0 +1,41 @@
+.btn {
+  display: block;
+  width: 230px;
+  min-height: 59px;
+  padding: 18px 20px;
+
+  font-family: $font-text;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  font-variant: small-caps;
+  text-align: center;
+  color: $color-white;
+  text-transform: lowercase;
+
+  border-radius: 80px;
+  text-decoration: none;
+  text-shadow: $text-shadow;
+  background-color: $color-yellow;
+  background-image: linear-gradient(142.39deg, #FFC341 20.46%, #FFD701 65.31%);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  &:hover {
+    background-image: linear-gradient(143.55deg, #FFC341 -50.3%, #FFD701 63.1%);
+  }
+
+  &:active {
+    background-image:
+      radial-gradient(150% 119.49% at 50% 50.85%, rgba(0, 0, 0, 0) 30.67%, rgba(3, 3, 3, 0.24) 100%),
+      linear-gradient(143.55deg, #FFC341 -50.3%, #FFD701 63.1%);
+  }
+}
+
+.btn--icon {
+  display: inline-block;
+  vertical-align: middle;
+
+  fill: currentColor;
+}
