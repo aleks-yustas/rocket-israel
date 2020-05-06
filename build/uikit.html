@@ -7,15 +7,17 @@
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body style="background-color: #e5e5e5;">
-  <p>
+  <section>
+    <h2 class="section-title">Кнопка</h2>
     <a href="#" class="btn">
       <svg class="btn--icon" width="24" height="24" aria-hidden="true">
         <use xlink:href=" img/sprite_auto.svg#icon-instagram"></use>
       </svg>
       Смотреть фото
     </a>
-  </p>
-  <p>
+  </section>
+  <section>
+    <h2 class="section-title">Иконки соцсетей</h2>
     <ul class="socials">
       <li>
         <a class="socials-link" href="#">
@@ -58,8 +60,9 @@
         </a>
       </li>
     </ul>
-  </p>
-  <p>
+  </section>
+  <section>
+    <h2 class="section-title">Табы</h2>
     <ul class="tabs">
       <li>
         <a href="#" class="tabs__item tabs__item--david-star">Общие</a>
@@ -77,35 +80,52 @@
         <a href="#" class="tabs__item tabs__item--candle-holder">Религиозные</a>
       </li>
     </ul>
-  </p>
-  <p>
-    <label class="form-field">
+  </section>
+  <section>
+    <h2 class="section-title">Поля ввода - реализация 1</h2>
+    <p>Под input подкладывается label абсолютным позиционированием, в зависимости от состояния у label меняетя фоновый цвет.</p>
+    <div class="form-field">
+      <input class="form-field__input" type="tel" id="phone-1" placeholder="телефон">
+      <label class="form-field__label" for="phone-1">
+        <span class="sr-only">Введите номер телефона</span>
+      </label>
+    </div>
+    <div class="form-field">
+      <input class="form-field__input form-field__input--valid" type="tel" id="phone-2" placeholder="телефон">
+      <label class="form-field__label" for="phone-2">
+        <span class="sr-only">Введите номер телефона</span>
+      </label>
+    </div>
+    <div class="form-field">
+      <input class="form-field__input form-field__input--invalid" type="tel" id="phone-3" placeholder="телефон">
+      <label class="form-field__label" for="phone-3">
+        <span class="sr-only">Введите номер телефона</span>
+      </label>
+    </div>
+  </section>
+  <section>
+    <h2 class="section-title">Поля ввода - реализация 2</h2>
+    <p>Фон с градиентной заливкой накладывается на input фоновым изображением в формате svg.</p>
+    <label class="form-field-v2">
       <span class="sr-only">Введите номер телефона</span>
-      <input type="tel" placeholder="телефон">
+      <input class="form-field-v2__input" type="tel" placeholder="телефон">
     </label>
-  </p>
-  <p>
-    <label class="form-field form-field--valid">
+    <label class="form-field-v2 form-field-v2--valid">
       <span class="sr-only">Введите номер телефона</span>
-      <input type="tel" placeholder="телефон">
+      <input class="form-field-v2__input" type="tel" placeholder="телефон">
     </label>
-  </p>
-  <p>
-    <label class="form-field form-field--invalid">
+    <label class="form-field-v2 form-field-v2--invalid">
       <span class="sr-only">Введите номер телефона</span>
-      <input type="tel" placeholder="телефон">
+      <input class="form-field-v2__input" type="tel" placeholder="телефон">
     </label>
-  </p>
-  <p>
-    <button class="btn-play" type="button">
-      <span class="sr-only">Воспроизвести видео</span>
-      <span class="btn-play__icon">
-        <svg width="15" height="19" aria-hidden="true">
-          <use xlink:href=" img/sprite_auto.svg#icon-play-button"></use>
-        </svg>
-      </span>
-    </button>
-  </p>
-  
+  </section>
+  <button class="btn-play" type="button">
+    <span class="sr-only">Воспроизвести видео</span>
+    <span class="btn-play__icon">
+      <svg width="15" height="19" aria-hidden="true">
+        <use xlink:href=" img/sprite_auto.svg#icon-play-button"></use>
+      </svg>
+    </span>
+  </button>
 </body>
 </html>
