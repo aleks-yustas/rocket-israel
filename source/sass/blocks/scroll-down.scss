@@ -1,0 +1,60 @@
+.scroll-down {
+  position: relative;
+
+  &::after {
+    content: "";
+
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    z-index: 10;
+
+    display: block;
+    width: 1px;
+    height: 76px;
+    background-color: $color-white;
+
+    transform: translateX(-50%);
+  }
+}
+
+.scroll-down__icon {
+  display: block;
+}
+
+.scroll-down__icon > * {
+  transform-origin: center;
+}
+
+.scroll-down__mouse {
+  animation: bounce 1s infinite alternate linear;
+
+  @media screen and (max-width: $width-tablet) {
+    animation: none;
+  }
+}
+
+.scroll-down__outer {
+  animation: spin 10s infinite linear;
+
+  @media screen and (max-width: $width-tablet) {
+    animation: none;
+  }
+}
+
+@keyframes bounce {
+  from {
+    fill: transparent;
+  }
+
+  to {
+    transform: scale(1.1);
+    fill: rgba($color-white, 0.5);
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

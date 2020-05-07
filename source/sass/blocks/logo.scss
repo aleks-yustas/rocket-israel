@@ -1,0 +1,13 @@
+.logo {
+  width: 137px;
+
+  @media screen and (max-width: $width-tablet) {
+    width: 120px;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}

@@ -1,11 +1,15 @@
 @charset "utf-8";
 @import "utils/variables.scss";
+@import "utils/normalize.scss";
 @import "utils/sc-only.scss";
 @import "fonts.scss";
 @import "scafolding.scss";
+@import "blocks/hero.scss";
+@import "blocks/logo.scss";
 @import "blocks/btn.scss";
 @import "blocks/btn-play.scss";
 @import "blocks/socials.scss";
 @import "blocks/tabs.scss";
 @import "blocks/form-field.scss";
 @import "blocks/section-title.scss";
+@import "blocks/scroll-down.scss";

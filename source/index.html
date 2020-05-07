@@ -1,14 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Израиль</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-  <h1>Здесь будет сайт туров в Израиль</h1>
-  <a href="uikit.html">UIkit</a>
+  <header class="hero">
+    <div class="hero__wrapper">
+      <div class="hero__top">
+        <a class="logo hero__logo">
+          <!-- 1х: 137px; 2x: 274px -->
+          <img src="img/logo.png" srcset="img/logo@2x.png 2x" alt="Логотип Masa Israel Journey">
+        </a>
+        <div class="hero__links">
+          <a class="hero__phone" href="tel:+97226216581">+&nbsp;(972)&nbsp;2&nbsp;–&nbsp;621&nbsp;–&nbsp;6581</a>
+          <a class="hero__calback" href="#">Заказать звонок</a>
+        </div>
+      </div>
+      <div class="hero__content">
+        <h1 class="hero__title"><span class="sr-only">Израиль. </span>Учёба, путешествие и карьера<br>для еврейской молодёжи</h1>
+        <div class="hero__scroll-down scroll-down">
+          <svg class="scroll-down__icon" width="76" height="76" viewBox="0 0 76 76" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <g class="scroll-down__mouse">
+              <rect x="31.5" y="26.5" width="14" height="23" rx="7" stroke="white" stroke-width="3"/>
+              <rect x="37" y="30" width="3" height="7" rx="1.5" fill="white"/>
+            </g>
+            <circle class="scroll-down__inner" cx="38" cy="38" r="26.5" stroke="white"/>
+            <circle class="scroll-down__outer" cx="38" cy="38" r="37.5" stroke="white" stroke-dasharray="4 4"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </header>
 </body>
 </html>

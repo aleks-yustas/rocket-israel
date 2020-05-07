@@ -1,0 +1,167 @@
+.hero {
+  display: flex;
+  align-items: stretch;
+
+  padding-top: 32px;
+  padding-bottom: 164px;
+
+  height: 100vh;
+  min-height: 568px;
+  background-image:
+    url("../img/girl-hero.png"),
+    url("../img/header-text.png"),
+    url("../img/bg-hero.png");
+  background-position:
+    center top,
+    center 160px,
+    center top;
+  background-repeat: no-repeat;
+  background-size:
+    cover,
+    89% auto,
+    cover;
+
+  @media screen and (max-width: $width-tablet) {
+    padding-top: 20px;
+    padding-bottom: 19%;
+    background-position:
+      center 40px,
+      center 30%,
+      center 40px;
+    background-size:
+      cover,
+      100% auto,
+      cover;
+  }
+
+  @media screen and (max-width: $width-mobile) {
+    background-size:
+      cover,
+      108% auto,
+      cover;
+  }
+}
+
+.hero__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 97%;
+  max-width: 1142px;
+  margin: 0 auto;
+
+  @media screen and (max-width: $width-tablet) {
+    width: 90%;
+  }
+
+}
+
+.hero__top {
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 48px;
+}
+
+.hero__logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: 137px;
+  height: 48px;
+
+  transform: translate(-50%, -50%);
+
+  @media screen and (max-width: $width-tablet) {
+    position: static;
+
+    transform: none;
+  }
+}
+
+.hero__links {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media screen and (max-width: $width-tablet) {
+    flex-grow: 0;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    width: 150px;
+  }
+}
+
+.hero__phone,
+.hero__calback {
+  font-family: "Fira Sans";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  font-variant: small-caps;
+  color: $color-gray;
+  text-decoration: none;
+  text-transform: lowercase;
+
+  &:hover {
+    color: $color-blue;
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
+
+  @media screen and (max-width: $width-tablet) {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
+.hero__phone {
+  order: -1;
+
+  @media screen and (max-width: $width-tablet) {
+    order: initial;
+    margin-bottom: 5px;
+  }
+}
+
+.hero__calback {
+  border-bottom: 1px dashed;
+}
+
+.hero__content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 36px;
+}
+
+.hero__title {
+  flex-basis: 100%;
+  margin: 0 0 32px;
+
+  font-family: "Fira Sans";
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: center;
+  color: $color-white;
+
+  text-shadow: $text-shadow;
+
+  @media screen and (max-width: $width-tablet) {
+    font-size: 20px;
+  }
+}
+
+.hero__scroll-down {
+  display: block;
+  height: auto;
+}
