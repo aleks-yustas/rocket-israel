@@ -1,16 +1,17 @@
 .hero {
+  position: relative;
+
   display: flex;
   align-items: stretch;
 
-  padding-top: 32px;
-  padding-bottom: 164px;
+  width: 100%;
+  min-height: 100vh;
+  padding-bottom: 64.35%;
 
-  height: 100vh;
-  min-height: 568px;
   background-image:
-    url("../img/girl-hero.png"),
-    url("../img/header-text.png"),
-    url("../img/bg-hero.png");
+    url("../img/hero-girl.png"),
+    url("../img/hero-text.png"),
+    url("../img/hero-bg.png");
   background-position:
     center top,
     center 160px,
@@ -22,19 +23,13 @@
     cover;
 
   @media screen and (max-width: $width-tablet) {
+    min-height: 568px;
     padding-top: 20px;
-    padding-bottom: 19%;
+    padding-bottom: 20px;
     background-position:
       center 40px,
-      center 30%,
+      center 170px,
       center 40px;
-    background-size:
-      cover,
-      100% auto,
-      cover;
-  }
-
-  @media screen and (max-width: $width-mobile) {
     background-size:
       cover,
       108% auto,
@@ -43,18 +38,28 @@
 }
 
 .hero__wrapper {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 
   width: 97%;
   max-width: 1142px;
+  height: 100vh;
+  min-height: 568px;
+  padding-top: 32px;
+  padding-bottom: 164px;
   margin: 0 auto;
 
   @media screen and (max-width: $width-tablet) {
     width: 90%;
+    height: 568px;
+    padding-bottom: 0;
   }
-
 }
 
 .hero__top {
@@ -99,7 +104,7 @@
 }
 
 .hero__phone,
-.hero__calback {
+.hero__callback {
   font-family: "Fira Sans";
   font-weight: 500;
   font-size: 15px;
@@ -132,7 +137,7 @@
   }
 }
 
-.hero__calback {
+.hero__callback {
   border-bottom: 1px dashed;
 }
 
@@ -140,7 +145,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding-bottom: 36px;
+  padding-bottom: 55px;
 }
 
 .hero__title {

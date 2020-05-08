@@ -1,15 +1,37 @@
 'use strict';
-var pageHeader = document.querySelector('.page-header');
-var headerToggle = document.querySelector('.page-header__toggle');
 
-pageHeader.classList.remove('page-header--nojs');
+(function () {
+  var popupCallback = document.querySelector('.js--popup-callback');
+  var callbackLinkOpen = document.querySelector('.hero__callback');
+  var popupCloseButton = popupCallback.querySelector('.popup__close');
+  var popupOverlay = popupCallback.querySelector('.popup__overlay');
 
-headerToggle.addEventListener('click', function () {
-  if (pageHeader.classList.contains('page-header--closed')) {
-    pageHeader.classList.remove('page-header--closed');
-    pageHeader.classList.add('page-header--opened');
-  } else {
-    pageHeader.classList.add('page-header--closed');
-    pageHeader.classList.remove('page-header--opened');
-  }
-});
+  var openPopup = function () {
+    popupCallback.classList.remove('popup--close');
+  };
+
+  var closePopup = function () {
+    popupCallback.classList.add('popup--close');
+  };
+
+  var callbackLinkClickHandler = function (evt) {
+    evt.preventDefault();
+    openPopup();
+    popupOverlay.addEventListener('click', overlayClickHandler);
+    popupCloseButton.addEventListener('click', closeButtonClickHandler);
+  };
+
+  var overlayClickHandler = function () {
+    closePopup();
+    popupOverlay.removeEventListener('click', overlayClickHandler);
+    popupCloseButton.removeEventListener('click', closeButtonClickHandler);
+  };
+
+  var closeButtonClickHandler = function () {
+    closePopup();
+    popupOverlay.removeEventListener('click', overlayClickHandler);
+    popupCloseButton.removeEventListener('click', closeButtonClickHandler);
+  };
+
+  callbackLinkOpen.addEventListener('click', callbackLinkClickHandler);
+})();
