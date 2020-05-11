@@ -1,18 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs>
-<linearGradient id="paint0_linear" x1="16.8421" y1="1.82858" x2="52.588" y2="13.7318" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FFC341"/>
-<stop offset="0.963542" stop-color="#FFD701"/>
-</linearGradient>
-<linearGradient id="paint1_linear" x1="30.6316" y1="8.02857" x2="55.5095" y2="19.0743" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FFC341"/>
-<stop offset="0.963542" stop-color="#FFD701"/>
-</linearGradient>
-
-</defs><symbol id="icon-checkmark" viewBox="0 0 71 64">
-<rect x="3" y="3" width="58" height="58" rx="29" stroke="url(#paint0_linear)" stroke-width="6"/>
-<path d="M18 27.88L32.1972 43L66 7" stroke="url(#paint1_linear)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
-
-</symbol><symbol id="icon-close" viewBox="0 0 18 17">
+</defs><symbol id="icon-close" viewBox="0 0 18 17">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M7.48467 8.5L0 1.50703L1.41767 2.46254e-07L9 7.08422L16.5823 0L18 1.50703L10.5153 8.5L18 15.493L16.5823 17L9 9.91578L1.41767 17L6.13436e-07 15.493L7.48467 8.5Z"/>
 <linearGradient id="paint0_linear" x1="4.73684" y1="0.485716" x2="14.6703" y2="3.98809" gradientUnits="userSpaceOnUse">
 <stop stop-color="#FFC341"/>

@@ -1,9 +1,16 @@
 .checkbox-field {
+  position: relative;
   width: 100%;
 }
 
 .checkbox-field__input {
-  display: none;
+  position: absolute;
+  top: 16px;
+  left: 8px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
 }
 
 .checkbox-field__label {
@@ -44,6 +51,10 @@
 
 .checkbox-field__label::after {
   background-image: none;
+}
+
+.checkbox-field__input:focus + .checkbox-field__label {
+  outline: $color-blue auto 1px;
 }
 
 .checkbox-field__input:checked + .checkbox-field__label::after {
