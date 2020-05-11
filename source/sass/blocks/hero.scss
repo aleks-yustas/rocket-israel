@@ -105,7 +105,7 @@
 
 .hero__phone,
 .hero__callback {
-  font-family: "Fira Sans";
+  font-family: $font-text;
   font-weight: 500;
   font-size: 15px;
   line-height: 18px;
@@ -152,7 +152,7 @@
   flex-basis: 100%;
   margin: 0 0 32px;
 
-  font-family: "Fira Sans";
+  font-family: $font-text;
   font-weight: bold;
   font-size: 24px;
   line-height: 120%;

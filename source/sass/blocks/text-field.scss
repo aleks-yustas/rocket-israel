@@ -44,7 +44,7 @@
 }
 
 .text-field__input:focus + .text-field__label {
-  background: linear-gradient(108.42deg, #FFC341 20.46%, #FFD701 65.31%);
+  background: linear-gradient(108.42deg, #ffc341 20.46%, #ffd701 65.31%);
 }
 
 .text-field__input--valid + .text-field__label {
@@ -53,54 +53,5 @@
 
 .text-field__input--invalid + .text-field__label,
 .text-field__input--invalid:focus + .text-field__label, {
-  background: rgba($color-red, 0.5);
-}
-
-// ПОЛЯ ВВОДА - РЕАЛИЗАЦИЯ 2
-// Фон с градиентной заливкой накладывается на input фоновым изображением в формате svg.
-
-.form-field-v2 {
-  display: block;
-  width: 100%;
-  -webkit-appearance: none;
-}
-
-.form-field-v2 .form-field-v2__input {
-  width: 100%;
-  height: 59px;
-  padding: 18px 38px;
-
-  font-family: $font-text;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 20px;
-  font-variant: small-caps;
-  color: rgba($color-gray, 0.87);
-
-  border-radius: 80px;
-  border: 2px solid #e3e3e3;
-  background-color: transparent;
-  background: none;
-
-  &:focus {
-    border-color: transparent;
-    background-image: url("../img/input-border-gradient.svg");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-origin: border-box;
-  }
-
-  &::placeholder {
-    color: rgba($color-gray, 0.5);
-  }
-}
-
-.form-field-v2--valid .form-field-v2__input {
-  border-color: $color-gray;
-  background: none;
-}
-
-.form-field-v2--invalid .form-field-v2__input {
-  border-color: rgba($color-red, 0.5);
-  background: none;
+  background-color: rgba($color-red, 0.5);
 }

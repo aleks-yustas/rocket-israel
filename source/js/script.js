@@ -46,22 +46,21 @@
 
   window.popupCallback = {
     'open': openPopup,
-    'close': closePopup,
-  }
+    'close': closePopup
+  };
 })();
 
 (function () {
-  var PHONE_MASK = '{+7} (000) 000 00 00'
+  var PHONE_MASK = '{+7} (000) 000 00 00';
 
   var callbackForm = document.querySelector('.form-callback');
   var callbackNameInput = callbackForm.querySelector('#callback-name');
   var callbackTelInput = callbackForm.querySelector('#callback-phone');
   var callbackAgreement = callbackForm.querySelector('#callback-agreement');
-  var callbackSubmitButton = callbackForm.querySelector('.form-callback__submit');
   var validClass = 'text-field__input--valid';
   var invalidClass = 'text-field__input--invalid';
 
-  var phoneMask = function(telInput) {
+  var phoneMask = function (telInput) {
     window.iMaskJS(telInput, {
       mask: PHONE_MASK
     });
@@ -79,7 +78,7 @@
       evt.target.classList.add(validClass);
       evt.target.classList.remove(invalidClass);
     }
-  }
+  };
 
   var setFocus = function () {
     callbackNameInput.focus();
@@ -90,7 +89,7 @@
       evt.target.classList.add(validClass);
     } else if (evt.target.validity.invalid) {
       evt.target.classList.add(invalidClass);
-    };
+    }
 
     if (evt.target.value === '' && evt.target.classList.contains(validClass)) {
       evt.target.classList.remove(validClass);
@@ -115,7 +114,7 @@
     }
   };
 
-  var formReset = function() {
+  var formReset = function () {
     callbackForm.reset();
     callbackNameInput.classList.remove(validClass);
     callbackTelInput.classList.remove(validClass);
@@ -136,9 +135,7 @@
 
 
   callbackForm.addEventListener('submit', function (evt) {
-    console.log('Нажата отправка');
     evt.preventDefault();
-    console.log('Сбошено действие по умолчанию');
 
     if (!callbackAgreement.checked) {
       return;
@@ -177,11 +174,6 @@
     document.removeEventListener('keydown', escPressHandler);
   };
 
-  var callbackLinkClickHandler = function (evt) {
-    evt.preventDefault();
-    openPopup();
-  };
-
   var overlayClickHandler = function () {
     closePopup();
   };
@@ -203,5 +195,5 @@
   window.popupSuccess = {
     'open': openPopup,
     'close': closePopup
-  }
+  };
 })();
