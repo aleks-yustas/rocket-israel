@@ -1,9 +1,15 @@
 .section-title {
+  margin: 0;
+
   font-family: $font-title;
   font-weight: bold;
   font-size: 40px;
-  line-height: 49px;
+  line-height: 120%;
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: #1fc0fc;
+
+  @media screen and (max-width: $width-tablet) {
+    font-size: 32px;
+  }
 }

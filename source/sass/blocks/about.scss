@@ -1,0 +1,47 @@
+.about {
+  padding: 27px 0 96px;
+
+  background-image: url("../img/bg-watercolor-1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about__wrapper {
+  width: 97%;
+  max-width: 1142px;
+  margin: 0 auto;
+
+  @media screen and (max-width: $width-tablet) {
+    width: 90%;
+    padding-bottom: 0;
+  }
+}
+
+.about__text-content {
+  max-width: 720px;
+  margin: 0 auto 0;
+
+  text-align: center;
+}
+
+.about__title {
+  margin-bottom: 24px;
+}
+
+.about__description {
+  margin-bottom: 48px;
+
+  font-family: $font-text;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 170%;
+
+  color: $color-gray;
+
+  @media screen and (max-width: $width-tablet) {
+    font-size: 16px;
+    line-height: 160%;
+    text-align: left;
+  }
+}

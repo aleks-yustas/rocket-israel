@@ -1,0 +1,27 @@
+.video {
+  position: relative;
+  width: 870px;
+  max-width: 100%;
+  min-height: 224px;
+  margin: 0 auto;
+
+  background-image: url("../img/video.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+.video__container {
+  width: 100%;
+  min-width: 424px;
+  padding-bottom: 52.87%;
+}
+
+.video__play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}

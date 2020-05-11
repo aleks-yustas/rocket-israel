@@ -14,1017 +14,404 @@ File: source/sass/utils/normalize.scss [excluded]
 > stylelint "source/sass/**/*.scss" --syntax scss
 
 
-C:\Users\ACER\Projects\rocket-israel\source\js\wendor.js
+C:\Users\ACER\Projects\rocket-israel\source\js\vendor.js
      5:5    error  Expected an assignment or function call and instead saw an expression                                       no-unused-expressions
      5:5    error  Do not nest ternary expressions                                                                             no-nested-ternary
      5:76   error  'exports' is not defined                                                                                    no-undef
-     6:1    error  Expected indentation of 6 spaces but found 4                                                                indent
-     6:37   error  'define' is not defined                                                                                     no-undef
-     6:50   error  'define' is not defined                                                                                     no-undef
-     7:1    error  Expected indentation of 8 spaces but found 4                                                                indent
+     6:39   error  'define' is not defined                                                                                     no-undef
+     6:52   error  'define' is not defined                                                                                     no-undef
      8:5    error  Unexpected 'this'                                                                                           no-invalid-this
-     8:31   error  Statement inside of curly braces should be on next line                                                     brace-style
-     8:33   error  Use the global form of 'use strict'                                                                         strict
-    10:26   error  Do not nest ternary expressions                                                                             no-nested-ternary
-    10:62   error  'globalThis' is not defined                                                                                 no-undef
-    10:75   error  Do not nest ternary expressions                                                                             no-nested-ternary
-    10:116  error  Do not nest ternary expressions                                                                             no-nested-ternary
-    10:148  error  'global' is not defined                                                                                     no-undef
-    13:7    error  Return statement should not contain assignment                                                              no-return-assign
-    13:24   error  There should be no space after '{'                                                                          object-curly-spacing
-    13:36   error  There should be no space before '}'                                                                         object-curly-spacing
-    13:38   error  Unexpected use of comma operator                                                                            no-sequences
-    17:28   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-    21:9    error  Identifier 'global_1' is not in camel case                                                                  camelcase
-    22:29   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-    22:79   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-    22:123  error  Expected '===' and instead saw '=='                                                                         eqeqeq
-    22:175  error  Expected '===' and instead saw '=='                                                                         eqeqeq
-    41:13   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-    53:49   error  Unexpected 'this'                                                                                           no-invalid-this
-    83:1    error  Expected indentation of 8 spaces but found 6                                                                indent
-    83:29   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-    84:1    error  Expected indentation of 6 spaces but found 4                                                                indent
-    89:7    error  Expected { after 'if' condition                                                                             curly
-    89:14   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-    89:17   error  Unexpected use of undefined                                                                                 no-undefined
-    89:34   error  A function with a name starting with an uppercase letter should only be used as a constructor               new-cap
-    89:44   error  Strings must use singlequote                                                                                quotes
-    96:1    error  More than 2 blank lines not allowed                                                                         no-multiple-empty-lines
-   113:7    error  Expected { after 'if' condition                                                                             curly
-   114:7    error  Split 'var' declarations into multiple statements                                                           one-var
-   115:7    error  Expected { after 'if' condition                                                                             curly
-   115:60   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-   116:7    error  Expected { after 'if' condition                                                                             curly
-   116:39   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-   117:7    error  Expected { after 'if' condition                                                                             curly
-   117:61   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-   118:13   error  A function with a name starting with an uppercase letter should only be used as a constructor               new-cap
-   118:23   error  Strings must use singlequote                                                                                quotes
-   127:22   error  Identifier 'global_1' is not in camel case                                                                  camelcase
-   143:12   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-   149:71   error  Expected to return a value at the end of function 'getOwnPropertyDescriptor'                                consistent-return
-   149:71   error  'getOwnPropertyDescriptor' is already declared in the upper scope                                           no-shadow
-   152:7    error  Expected { after 'if' condition                                                                             curly
-   157:7    error  Expected { after 'if' condition                                                                             curly
-   166:15   error  A function with a name starting with an uppercase letter should only be used as a constructor               new-cap
-   179:7    error  Expected { after 'if' condition                                                                             curly
-   184:7    error  Expected { after 'if' condition                                                                             curly
-   184:61   error  A function with a name starting with an uppercase letter should only be used as a constructor               new-cap
-   185:7    error  Expected { after 'if' condition                                                                             curly
-   204:9    error  Identifier 'global_1' is not in camel case                                                                  camelcase
-   211:17   error  Identifier 'global_1' is not in camel case                                                                  camelcase
-   216:42   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-   224:19   error  Identifier 'global_1' is not in camel case                                                                  camelcase
-   228:1    error  Expected indentation of 6 spaces but found 4                                                                indent
-   229:1    error  Expected indentation of 8 spaces but found 6                                                                indent
-   229:64   error  Unexpected use of undefined                                                                                 no-undefined
-   230:1    error  Expected indentation of 6 spaces but found 4                                                                indent
-   231:1    error  Expected indentation of 8 spaces but found 6                                                                indent
-   232:1    error  Expected indentation of 8 spaces but found 6                                                                indent
-   232:14   error  Extra space before value for key 'mode'                                                                     key-spacing
-   233:1    error  Expected indentation of 8 spaces but found 6                                                                indent
-   234:1    error  Expected indentation of 6 spaces but found 4                                                                indent
-   241:41   error  Unexpected use of undefined                                                                                 no-undefined
-   252:21   error  Identifier 'global_1' is not in camel case                                                                  camelcase
-   253:5    error  Split 'var' declarations into multiple statements                                                           one-var
-   264:17   error  A function with a name starting with an uppercase letter should only be used as a constructor               new-cap
-   316:1    error  Expected indentation of 6 spaces but found 4                                                                indent
-   317:1    error  Expected indentation of 6 spaces but found 4                                                                indent
-   318:1    error  Expected indentation of 6 spaces but found 4                                                                indent
-   319:1    error  Expected indentation of 6 spaces but found 4                                                                indent
-   320:1    error  Expected indentation of 8 spaces but found 6                                                                indent
-   321:1    error  Expected indentation of 8 spaces but found 6                                                                indent
-   322:1    error  Expected indentation of 8 spaces but found 6                                                                indent
-   324:1    error  Expected indentation of 8 spaces but found 6                                                                indent
-   324:24   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-   325:1    error  Expected indentation of 10 spaces but found 8                                                               indent
-   325:9    error  Expected { after 'if' condition                                                                             curly
-   325:24   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-   326:1    error  Expected indentation of 10 spaces but found 8                                                               indent
-   326:71   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-   327:1    error  Expected indentation of 8 spaces but found 6                                                                indent
-   329:1    error  Expected indentation of 8 spaces but found 6                                                                indent
-   329:17   error  Identifier 'global_1' is not in camel case                                                                  camelcase
-   330:1    error  Expected indentation of 10 spaces but found 8                                                               indent
-   330:9    error  Expected { after 'if' condition                                                                             curly
-   330:35   error  Missing whitespace after semicolon                                                                          semi-spacing
-   330:36   error  Expected { after 'else'                                                                                     curly
-   331:1    error  Expected indentation of 10 spaces but found 8                                                               indent
-   332:1    error  Expected indentation of 8 spaces but found 6                                                                indent
-   333:1    error  Expected indentation of 10 spaces but found 8                                                               indent
-   334:1    error  Expected indentation of 8 spaces but found 6                                                                indent
-   335:1    error  Expected indentation of 10 spaces but found 8                                                               indent
-   336:1    error  Expected indentation of 8 spaces but found 6                                                                indent
-   338:1    error  Expected indentation of 8 spaces but found 6                                                                indent
-   338:7    error  Expected { after 'if' condition                                                                             curly
-   338:33   error  Missing whitespace after semicolon                                                                          semi-spacing
-   338:34   error  Expected { after 'else'                                                                                     curly
-   339:1    error  Expected indentation of 6 spaces but found 4                                                                indent
-   339:49   error  'toString' is already declared in the upper scope                                                           no-shadow
-   340:1    error  Expected indentation of 8 spaces but found 6                                                                indent
-   340:21   error  Unexpected 'this'                                                                                           no-invalid-this
-   340:26   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-   340:60   error  Unexpected 'this'                                                                                           no-invalid-this
-   340:90   error  Unexpected 'this'                                                                                           no-invalid-this
-   341:1    error  Expected indentation of 6 spaces but found 4                                                                indent
-   344:16   error  Identifier 'global_1' is not in camel case                                                                  camelcase
-   347:30   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-   347:57   error  Unexpected use of undefined                                                                                 no-undefined
-   351:77   error  Identifier 'global_1' is not in camel case                                                                  camelcase
-   351:146  error  Identifier 'global_1' is not in camel case                                                                  camelcase
-   351:169  error  Identifier 'global_1' is not in camel case                                                                  camelcase
-   390:9    error  Expected { after 'if' condition                                                                             curly
-   390:31   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-   393:11   error  Expected { after 'if' condition                                                                             curly
-   393:21   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-   394:11   error  Expected { after 'else'                                                                                     curly
-   395:11   error  Expected { after 'if' condition                                                                             curly
-   413:1    error  More than 2 blank lines not allowed                                                                         no-multiple-empty-lines
-   420:7    error  The body of a for-in should be wrapped in an if statement to filter unwanted properties from the prototype  guard-for-in
-   420:7    error  Expected { after 'for-in'                                                                                   curly
-   420:22   error  Expected an assignment or function call and instead saw an expression                                       no-unused-expressions
-   423:7    error  Expected { after 'while' condition                                                                          curly
-   424:9    error  Expected an assignment or function call and instead saw an expression                                       no-unused-expressions
-   454:11   error  'keys' is already declared in the upper scope                                                               no-shadow
-   460:11   error  'keys' is already declared in the upper scope                                                               no-shadow
-   462:11   error  'getOwnPropertyDescriptor' is already declared in the upper scope                                           no-shadow
-   466:9    error  Expected { after 'if' condition                                                                             curly
-   474:14   error  Do not nest ternary expressions                                                                             no-nested-ternary
-   474:20   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-   474:41   error  Do not nest ternary expressions                                                                             no-nested-ternary
-   474:47   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-   474:84   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-   484:9    error  Identifier 'isForced_1' is not in camel case                                                                camelcase
-   489:1    error  More than 2 blank lines not allowed                                                                         no-multiple-empty-lines
-   517:7    error  Split 'var' declarations into multiple statements                                                           one-var
-   520:18   error  Identifier 'global_1' is not in camel case                                                                  camelcase
-   522:18   error  Identifier 'global_1' is not in camel case                                                                  camelcase
-   524:19   error  Identifier 'global_1' is not in camel case                                                                  camelcase
-   527:7    error  Expected { after 'if' condition                                                                             curly
-   527:19   error  The body of a for-in should be wrapped in an if statement to filter unwanted properties from the prototype  guard-for-in
-   533:11   error  Expected { after 'else'                                                                                     curly
-   537:43   error  Unexpected use of undefined                                                                                 no-undefined
-   538:11   error  Expected { after 'if' condition                                                                             curly
-   556:46   error  'keys' is already declared in the upper scope                                                               no-shadow
-   574:7    error  Expected { after 'if' condition                                                                             curly
-   591:20   error  'Symbol' is not defined                                                                                     no-undef
-   597:42   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-   597:91   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-   598:34   error  'source' is defined but never used. Allowed unused args must match /^_/u                                    no-unused-vars
-   600:1    error  Expected indentation of 8 spaces but found 6                                                                indent
-   601:1    error  Expected indentation of 8 spaces but found 6                                                                indent
-   602:1    error  Expected indentation of 8 spaces but found 6                                                                indent
-   603:1    error  Expected indentation of 8 spaces but found 6                                                                indent
-   604:1    error  Expected indentation of 8 spaces but found 6                                                                indent
-   606:1    error  Expected indentation of 8 spaces but found 6                                                                indent
-   607:1    error  Expected indentation of 10 spaces but found 8                                                               indent
-   608:1    error  Expected indentation of 10 spaces but found 8                                                               indent
-   608:13   error  'keys' is already declared in the upper scope                                                               no-shadow
-   609:1    error  Expected indentation of 10 spaces but found 8                                                               indent
-   610:1    error  Expected indentation of 10 spaces but found 8                                                               indent
-   611:1    error  Expected indentation of 10 spaces but found 8                                                               indent
-   613:1    error  Expected indentation of 10 spaces but found 8                                                               indent
-   614:1    error  Expected indentation of 12 spaces but found 10                                                              indent
-   615:1    error  Expected indentation of 12 spaces but found 10                                                              indent
-   615:11   error  Expected { after 'if' condition                                                                             curly
-   616:1    error  Expected indentation of 10 spaces but found 8                                                               indent
-   617:1    error  Expected indentation of 8 spaces but found 6                                                                indent
-   619:1    error  Expected indentation of 8 spaces but found 6                                                                indent
-   620:1    error  Expected indentation of 6 spaces but found 4                                                                indent
-   639:47   error  Unexpected 'this'                                                                                           no-invalid-this
-   642:7    error  Expected { after 'if' condition                                                                             curly
-   642:22   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-   642:41   error  A function with a name starting with an uppercase letter should only be used as a constructor               new-cap
-   644:7    error  Expected { after 'for' condition                                                                            curly
-   644:49   error  Expected { after 'if' condition                                                                             curly
-   652:1    error  More than 2 blank lines not allowed                                                                         no-multiple-empty-lines
-   662:38   error  Unexpected use of undefined                                                                                 no-undefined
-   664:9    error  Split 'var' declarations into multiple statements                                                           one-var
-   665:9    error  Expected { after 'if' condition                                                                             curly
-   665:53   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-   668:9    error  Expected { after 'if' condition                                                                             curly
-   685:5    error  Definition for rule 'unicorn/no-unsafe-regex' was not found                                                 unicorn/no-unsafe-regex
-   704:79   error  Unexpected use of undefined                                                                                 no-undefined
-   722:81   error  Unexpected use of undefined                                                                                 no-undefined
-   744:19   error  Identifier 'global_1' is not in camel case                                                                  camelcase
-   748:7    error  Strings must use singlequote                                                                                quotes
-   750:29   error  Strings must use singlequote                                                                                quotes
-   750:50   error  'Symbol' is not defined                                                                                     no-undef
-   750:70   error  Strings must use singlequote                                                                                quotes
-   751:9    error  '_typeof' is a function                                                                                     no-func-assign
-   751:29   error  'obj' is already declared in the upper scope                                                                no-shadow
-   755:9    error  '_typeof' is a function                                                                                     no-func-assign
-   755:29   error  'obj' is already declared in the upper scope                                                                no-shadow
-   756:43   error  Strings must use singlequote                                                                                quotes
-   756:77   error  'Symbol' is not defined                                                                                     no-undef
-   756:95   error  'Symbol' is not defined                                                                                     no-undef
-   756:114  error  Strings must use singlequote                                                                                quotes
-   765:29   error  Strings must use singlequote                                                                                quotes
-   774:9    error  Expected { after 'if' condition                                                                             curly
-   774:13   error  Strings must use singlequote                                                                                quotes
-   780:7    error  Expected { after 'if' condition                                                                             curly
-   781:7    error  Expected { after 'if' condition                                                                             curly
-   801:33   error  Strings must use singlequote                                                                                quotes
-   802:29   error  Strings must use singlequote                                                                                quotes
-   812:7    error  Expected { after 'if' condition                                                                             curly
-   816:7    error  '_getPrototypeOf' is a function                                                                             no-func-assign
-   816:82   error  '_getPrototypeOf' is already declared in the upper scope                                                    no-shadow
-   816:98   error  'o' is already declared in the upper scope                                                                  no-shadow
-   817:16   error  The '__proto__' property is deprecated                                                                      no-proto
-   823:7    error  '_setPrototypeOf' is a function                                                                             no-func-assign
-   823:59   error  '_setPrototypeOf' is already declared in the upper scope                                                    no-shadow
-   823:75   error  'o' is already declared in the upper scope                                                                  no-shadow
-   823:78   error  'p' is already declared in the upper scope                                                                  no-shadow
-   824:9    error  The '__proto__' property is deprecated                                                                      no-proto
-   832:7    error  Expected { after 'if' condition                                                                             curly
-   832:18   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-   835:7    error  Split 'var' declarations into multiple statements                                                           one-var
-   839:9    error  Expected { after 'if' condition                                                                             curly
-   847:7    error  Expected { after 'if' condition                                                                             curly
-   847:18   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-   851:7    error  Split 'var' declarations into multiple statements                                                           one-var
-   858:11   error  Expected { after 'if' condition                                                                             curly
-   859:11   error  Expected { after 'if' condition                                                                             curly
-   869:34   error  Strings must use singlequote                                                                                quotes
-   876:36   error  Strings must use singlequote                                                                                quotes
-   876:64   error  Strings must use singlequote                                                                                quotes
-   886:9    error  Expected { after 'if' condition                                                                             curly
-   893:30   error  Strings must use singlequote                                                                                quotes
-   893:45   error  'Reflect' is not defined                                                                                    no-undef
-   894:9    error  '_get' is a function                                                                                        no-func-assign
-   894:16   error  'Reflect' is not defined                                                                                    no-undef
-   896:9    error  '_get' is a function                                                                                        no-func-assign
-   896:25   error  '_get' is already declared in the upper scope                                                               no-shadow
-   896:30   error  'target' is already declared in the upper scope                                                             no-shadow
-   896:38   error  'property' is already declared in the upper scope                                                           no-shadow
-   896:48   error  'receiver' is already declared in the upper scope                                                           no-shadow
-   899:11   error  Expected { after 'if' condition                                                                             curly
-   903:13   error  Function '_get' expected no return value                                                                    consistent-return
-   906:11   error  Function '_get' expected no return value                                                                    consistent-return
-   914:30   error  Strings must use singlequote                                                                                quotes
-   914:45   error  'Reflect' is not defined                                                                                    no-undef
-   915:9    error  'set$1' is a function                                                                                       no-func-assign
-   915:17   error  'Reflect' is not defined                                                                                    no-undef
-   917:9    error  'set$1' is a function                                                                                       no-func-assign
-   917:26   error  'set' is already declared in the upper scope                                                                no-shadow
-   917:30   error  'target' is already declared in the upper scope                                                             no-shadow
-   917:38   error  'property' is already declared in the upper scope                                                           no-shadow
-   917:48   error  'value' is already declared in the upper scope                                                              no-shadow
-   917:55   error  'receiver' is already declared in the upper scope                                                           no-shadow
-   967:14   error  Expected to return a value at the end of function '_arrayWithHoles'                                         consistent-return
-   968:7    error  Expected { after 'if' condition                                                                             curly
-   972:13   error  'Symbol' is not defined                                                                                     no-undef
-   972:87   error  Strings must use singlequote                                                                                quotes
-   979:11   error  It's not necessary to initialize '_e' to undefined                                                          no-undef-init
-   979:16   error  Unexpected use of undefined                                                                                 no-undefined
-   982:27   error  'Symbol' is not defined                                                                                     no-undef
-   985:11   error  Expected { after 'if' condition                                                                             curly
-   992:11   error  Expected { after 'if' condition                                                                             curly
-   992:25   error  Strings must use singlequote                                                                                quotes
-   992:35   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-   992:47   error  Strings must use singlequote                                                                                quotes
-   994:11   error  Expected { after 'if' condition                                                                             curly
-   998:7    error  Function '_iterableToArrayLimit' expected no return value                                                   consistent-return
-  1002:27   error  Strings must use singlequote                                                                                quotes
-  1005:5    error  Missing JSDoc @return for function                                                                          valid-jsdoc
-  1005:5    error  Missing JSDoc for parameter 'str'                                                                           valid-jsdoc
-  1046:7    error  Expected { after 'if' condition                                                                             curly
-  1047:7    error  Split 'var' declarations into multiple statements                                                           one-var
-  1048:1    error  Expected indentation of 8 spaces but found 10                                                               indent
-  1049:1    error  Expected indentation of 8 spaces but found 10                                                               indent
-  1052:9    error  Expected { after 'if' condition                                                                             curly
-  1052:22   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-  1055:11   error  Expected { after 'if' condition                                                                             curly
-  1061:7    error  Expected { after 'if' condition                                                                             curly
-  1061:16   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-  1064:9    error  Split 'var' declarations into multiple statements                                                           one-var
-  1065:1    error  Expected indentation of 10 spaces but found 12                                                              indent
-  1066:9    error  Expected { after 'if' condition                                                                             curly
-  1066:48   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-  1067:9    error  Expected { after 'if' condition                                                                             curly
-  1067:19   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-  1068:9    error  Split 'var' declarations into multiple statements                                                           one-var
-  1069:1    error  Expected indentation of 10 spaces but found 12                                                              indent
-  1070:9    error  Expected { after 'if' condition                                                                             curly
-  1070:53   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-  1071:9    error  Expected { after 'if' condition                                                                             curly
-  1071:21   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-  1072:13   error  'keys' is already declared in the upper scope                                                               no-shadow
-  1075:11   error  Expected { after 'if' condition                                                                             curly
-  1079:11   error  Expected { after 'if' condition                                                                             curly
-  1094:5    error  Expected space or tab after '/*' in comment                                                                 spaced-comment
-  1102:7    error  Missing JSDoc for parameter 'value'                                                                         valid-jsdoc
-  1102:7    error  Missing JSDoc for parameter 'cursorPos'                                                                     valid-jsdoc
-  1102:7    error  Missing JSDoc for parameter 'oldValue'                                                                      valid-jsdoc
-  1102:7    error  Missing JSDoc for parameter 'oldSelection'                                                                  valid-jsdoc
-  1103:16   error  'ActionDetails' is already declared in the upper scope                                                      no-shadow
-  1122:14   error  Strings must use singlequote                                                                                quotes
-  1123:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  1132:14   error  Strings must use singlequote                                                                                quotes
-  1133:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  1142:14   error  Strings must use singlequote                                                                                quotes
-  1143:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  1152:14   error  Strings must use singlequote                                                                                quotes
-  1153:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  1164:14   error  Strings must use singlequote                                                                                quotes
-  1165:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  1174:14   error  Strings must use singlequote                                                                                quotes
-  1175:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  1184:14   error  Strings must use singlequote                                                                                quotes
-  1185:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  1194:14   error  Strings must use singlequote                                                                                quotes
-  1195:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  1196:11   error  Expected { after 'if' condition                                                                             curly
-  1214:5    error  Expected space or tab after '/*' in comment                                                                 spaced-comment
-  1222:7    error  Missing JSDoc for parameter 'details'                                                                       valid-jsdoc
-  1223:16   error  'ChangeDetails' is already declared in the upper scope                                                      no-shadow
-  1240:14   error  Strings must use singlequote                                                                                quotes
-  1251:14   error  Strings must use singlequote                                                                                quotes
-  1252:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  1262:5    error  Expected space or tab after '/*' in comment                                                                 spaced-comment
-  1269:16   error  'ContinuousTailDetails' is already declared in the upper scope                                              no-shadow
-  1270:62   error  Unexpected use of undefined                                                                                 no-undefined
-  1271:61   error  Unexpected use of undefined                                                                                 no-undefined
-  1272:58   error  Unexpected use of undefined                                                                                 no-undefined
-  1282:14   error  Strings must use singlequote                                                                                quotes
-  1283:25   error  'toString' is already declared in the upper scope                                                           no-shadow
-  1287:14   error  Strings must use singlequote                                                                                quotes
-  1292:14   error  Strings must use singlequote                                                                                quotes
-  1299:14   error  Strings must use singlequote                                                                                quotes
-  1301:11   error  Expected { after 'if' condition                                                                             curly
-  1307:14   error  Strings must use singlequote                                                                                quotes
-  1308:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  1315:23   error  'set' is already declared in the upper scope                                                                no-shadow
-  1331:59   error  Unexpected use of undefined                                                                                 no-undefined
-  1340:5    error  Expected space or tab after '/*' in comment                                                                 spaced-comment
-  1361:7    error  Missing JSDoc for parameter 'opts'                                                                          valid-jsdoc
-  1362:16   error  'Masked' is already declared in the upper scope                                                             no-shadow
-  1375:14   error  Strings must use singlequote                                                                                quotes
-  1377:11   error  Expected { after 'if' condition                                                                             curly
-  1386:14   error  Strings must use singlequote                                                                                quotes
-  1393:14   error  Strings must use singlequote                                                                                quotes
-  1402:14   error  Strings must use singlequote                                                                                quotes
-  1404:9    error  Missing JSDoc @return for function                                                                          valid-jsdoc
-  1404:9    error  Missing JSDoc for parameter 'value'                                                                         valid-jsdoc
-  1416:14   error  Strings must use singlequote                                                                                quotes
-  1418:9    error  Missing JSDoc @return for function                                                                          valid-jsdoc
-  1418:9    error  Missing JSDoc for parameter 'cursorPos'                                                                     valid-jsdoc
-  1418:9    error  Missing JSDoc for parameter 'direction'                                                                     valid-jsdoc
-  1419:52   error  'direction' is defined but never used. Allowed unused args must match /^_/u                                 no-unused-vars
-  1425:14   error  Strings must use singlequote                                                                                quotes
-  1427:66   error  Unexpected use of undefined                                                                                 no-undefined
-  1428:64   error  Unexpected use of undefined                                                                                 no-undefined
-  1434:14   error  Strings must use singlequote                                                                                quotes
-  1436:66   error  Unexpected use of undefined                                                                                 no-undefined
-  1437:64   error  Unexpected use of undefined                                                                                 no-undefined
-  1444:14   error  Strings must use singlequote                                                                                quotes
-  1446:11   error  Expected { after 'if' condition                                                                             curly
-  1452:14   error  Strings must use singlequote                                                                                quotes
-  1454:64   error  Unexpected use of undefined                                                                                 no-undefined
-  1456:11   error  Expected { after 'if' condition                                                                             curly
-  1466:14   error  Strings must use singlequote                                                                                quotes
-  1468:64   error  Unexpected use of undefined                                                                                 no-undefined
-  1469:65   error  Unexpected use of undefined                                                                                 no-undefined
-  1478:39   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-  1490:15   error  Expected { after 'if' condition                                                                             curly
-  1497:15   error  Expected { after 'if' condition                                                                             curly
-  1506:14   error  Strings must use singlequote                                                                                quotes
-  1514:14   error  Strings must use singlequote                                                                                quotes
-  1516:11   error  Expected { after 'if' condition                                                                             curly
-  1519:11   error  Expected { after 'if' condition                                                                             curly
-  1526:25   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-  1537:14   error  Strings must use singlequote                                                                                quotes
-  1539:66   error  Unexpected use of undefined                                                                                 no-undefined
-  1540:64   error  Unexpected use of undefined                                                                                 no-undefined
-  1547:14   error  Strings must use singlequote                                                                                quotes
-  1549:11   error  Expected { after 'if' condition                                                                             curly
-  1566:14   error  Strings must use singlequote                                                                                quotes
-  1568:11   error  Expected { after 'if' condition                                                                             curly
-  1582:14   error  Strings must use singlequote                                                                                quotes
-  1584:64   error  Unexpected use of undefined                                                                                 no-undefined
-  1593:14   error  Strings must use singlequote                                                                                quotes
-  1603:14   error  Strings must use singlequote                                                                                quotes
-  1605:11   error  Expected { after 'if' condition                                                                             curly
-  1610:14   error  Strings must use singlequote                                                                                quotes
-  1617:14   error  Strings must use singlequote                                                                                quotes
-  1624:14   error  Strings must use singlequote                                                                                quotes
-  1638:14   error  Strings must use singlequote                                                                                quotes
-  1639:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  1644:23   error  'set' is already declared in the upper scope                                                                no-shadow
-  1648:14   error  Strings must use singlequote                                                                                quotes
-  1649:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  1652:23   error  'set' is already declared in the upper scope                                                                no-shadow
-  1656:14   error  Strings must use singlequote                                                                                quotes
-  1657:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  1660:23   error  'set' is already declared in the upper scope                                                                no-shadow
-  1668:14   error  Strings must use singlequote                                                                                quotes
-  1669:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  1672:23   error  'set' is already declared in the upper scope                                                                no-shadow
-  1678:14   error  Strings must use singlequote                                                                                quotes
-  1679:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  1684:23   error  'set' is already declared in the upper scope                                                                no-shadow
-  1694:14   error  Strings must use singlequote                                                                                quotes
-  1695:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  1715:16   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-  1720:7    error  Expected { after 'if' condition                                                                             curly
-  1722:7    error  Expected { after 'if' condition                                                                             curly
-  1724:7    error  Expected { after 'if' condition                                                                             curly
-  1726:7    error  Expected { after 'if' condition                                                                             curly
-  1728:7    error  Expected { after 'if' condition                                                                             curly
-  1730:7    error  Expected { after 'if' condition                                                                             curly
-  1732:7    error  Expected { after 'if' condition                                                                             curly
-  1742:7    error  Expected { after 'if' condition                                                                             curly
-  1746:7    error  Expected { after 'if' condition                                                                             curly
-  1748:7    error  Expected { after 'if' condition                                                                             curly
-  1762:5    error  Expected space or tab after '/*' in comment                                                                 spaced-comment
-  1774:7    error  Missing JSDoc for parameter 'opts'                                                                          valid-jsdoc
-  1775:16   error  'PatternInputDefinition' is already declared in the upper scope                                             no-shadow
-  1778:9    error  Split 'var' declarations into multiple statements                                                           one-var
-  1779:1    error  Expected indentation of 10 spaces but found 12                                                              indent
-  1779:57   error  Strings must use singlequote                                                                                quotes
-  1788:14   error  Strings must use singlequote                                                                                quotes
-  1794:14   error  Strings must use singlequote                                                                                quotes
-  1796:66   error  Unexpected use of undefined                                                                                 no-undefined
-  1797:64   error  Unexpected use of undefined                                                                                 no-undefined
-  1807:14   error  Strings must use singlequote                                                                                quotes
-  1809:64   error  Unexpected use of undefined                                                                                 no-undefined
-  1810:11   error  Expected { after 'if' condition                                                                             curly
-  1829:14   error  Strings must use singlequote                                                                                quotes
-  1836:14   error  Strings must use singlequote                                                                                quotes
-  1839:11   error  Expected { after 'if' condition                                                                             curly
-  1845:14   error  Strings must use singlequote                                                                                quotes
-  1852:14   error  Strings must use singlequote                                                                                quotes
-  1859:14   error  Strings must use singlequote                                                                                quotes
-  1861:66   error  Unexpected use of undefined                                                                                 no-undefined
-  1862:64   error  Unexpected use of undefined                                                                                 no-undefined
-  1863:61   error  Unexpected use of undefined                                                                                 no-undefined
-  1867:14   error  Strings must use singlequote                                                                                quotes
-  1869:68   error  Unexpected use of undefined                                                                                 no-undefined
-  1889:14   error  Strings must use singlequote                                                                                quotes
-  1891:11   error  Split 'var' declarations into multiple statements                                                           one-var
-  1896:14   error  Strings must use singlequote                                                                                quotes
-  1901:14   error  Strings must use singlequote                                                                                quotes
-  1902:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  1906:14   error  Strings must use singlequote                                                                                quotes
-  1907:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  1911:14   error  Strings must use singlequote                                                                                quotes
-  1912:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  1916:14   error  Strings must use singlequote                                                                                quotes
-  1917:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  1923:23   error  'set' is already declared in the upper scope                                                                no-shadow
-  1933:5    error  Expected space or tab after '/*' in comment                                                                 spaced-comment
-  1941:7    error  Missing JSDoc for parameter 'opts'                                                                          valid-jsdoc
-  1942:16   error  'PatternFixedDefinition' is already declared in the upper scope                                             no-shadow
-  1950:14   error  Strings must use singlequote                                                                                quotes
-  1956:14   error  Strings must use singlequote                                                                                quotes
-  1958:66   error  Unexpected use of undefined                                                                                 no-undefined
-  1959:64   error  Unexpected use of undefined                                                                                 no-undefined
-  1961:11   error  Expected { after 'if' condition                                                                             curly
-  1965:14   error  Strings must use singlequote                                                                                quotes
-  1966:41   error  'cursorPos' is defined but never used. Allowed unused args must match /^_/u                                 no-unused-vars
-  1967:68   error  Unexpected use of undefined                                                                                 no-undefined
-  1984:14   error  Strings must use singlequote                                                                                quotes
-  1986:66   error  Unexpected use of undefined                                                                                 no-undefined
-  1987:64   error  Unexpected use of undefined                                                                                 no-undefined
-  1988:64   error  Unexpected use of undefined                                                                                 no-undefined
-  1992:14   error  Strings must use singlequote                                                                                quotes
-  1994:64   error  Unexpected use of undefined                                                                                 no-undefined
-  1996:11   error  Expected { after 'if' condition                                                                             curly
-  1999:11   error  Expected { after 'if' condition                                                                             curly
-  2005:14   error  Strings must use singlequote                                                                                quotes
-  2008:11   error  Expected { after 'if' condition                                                                             curly
-  2013:14   error  Strings must use singlequote                                                                                quotes
-  2015:15   error  'toPos' is assigned a value but never used                                                                  no-unused-vars
-  2015:64   error  Unexpected use of undefined                                                                                 no-undefined
-  2020:14   error  Strings must use singlequote                                                                                quotes
-  2022:11   error  Expected { after 'if' condition                                                                             curly
-  2026:14   error  Strings must use singlequote                                                                                quotes
-  2030:20   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-  2037:14   error  Strings must use singlequote                                                                                quotes
-  2040:14   error  Strings must use singlequote                                                                                quotes
-  2041:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  2045:14   error  Strings must use singlequote                                                                                quotes
-  2046:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  2050:14   error  Strings must use singlequote                                                                                quotes
-  2051:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  2055:14   error  Strings must use singlequote                                                                                quotes
-  2056:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  2062:23   error  'set' is already declared in the upper scope                                                                no-shadow
-  2071:5    error  Expected space or tab after '/*' in comment                                                                 spaced-comment
-  2074:16   error  'ChunksTailDetails' is already declared in the upper scope                                                  no-shadow
-  2075:63   error  Unexpected use of undefined                                                                                 no-undefined
-  2076:61   error  Unexpected use of undefined                                                                                 no-undefined
-  2085:14   error  Strings must use singlequote                                                                                quotes
-  2086:25   error  'toString' is already declared in the upper scope                                                           no-shadow
-  2091:14   error  Strings must use singlequote                                                                                quotes
-  2093:11   error  Expected { after 'if' condition                                                                             curly
-  2094:11   error  Expected { after 'if' condition                                                                             curly
-  2097:1    error  Expected indentation of 12 spaces but found 10                                                              indent
-  2097:63   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-  2110:32   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-  2114:74   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-  2130:14   error  Strings must use singlequote                                                                                quotes
-  2149:1    error  Expected indentation of 14 spaces but found 12                                                              indent
-  2166:15   error  Expected { after 'if' condition                                                                             curly
-  2178:14   error  Strings must use singlequote                                                                                quotes
-  2180:11   error  Expected { after 'if' condition                                                                             curly
-  2191:15   error  Expected { after 'if' condition                                                                             curly
-  2198:13   error  Expected { after 'if' condition                                                                             curly
-  2204:14   error  Strings must use singlequote                                                                                quotes
-  2205:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  2215:23   error  'set' is already declared in the upper scope                                                                no-shadow
-  2216:11   error  Split 'var' declarations into multiple statements                                                           one-var
-  2217:1    error  Expected indentation of 12 spaces but found 14                                                              indent
-  2217:56   error  Strings must use singlequote                                                                                quotes
-  2221:25   error  Strings must use singlequote                                                                                quotes
-  2241:5    error  Expected space or tab after '/*' in comment                                                                 spaced-comment
-  2251:7    error  Missing JSDoc @return for function                                                                          valid-jsdoc
-  2252:16   error  'MaskedPattern' is already declared in the upper scope                                                      no-shadow
-  2253:61   error  Unexpected use of undefined                                                                                 no-undefined
-  2268:14   error  Strings must use singlequote                                                                                quotes
-  2270:63   error  Unexpected use of undefined                                                                                 no-undefined
-  2273:58   error  Strings must use singlequote                                                                                quotes
-  2280:14   error  Strings must use singlequote                                                                                quotes
-  2289:11   error  Expected { after 'if' condition                                                                             curly
-  2295:26   error  Expected to return a value at the end of function                                                           consistent-return
-  2319:21   error  Expected { after 'if' condition                                                                             curly
-  2325:26   error  Strings must use singlequote                                                                                quotes
-  2329:15   error  Expected { after 'if' condition                                                                             curly
-  2329:28   error  Strings must use singlequote                                                                                quotes
-  2355:15   error  Expected { after 'if' condition                                                                             curly
-  2378:14   error  Strings must use singlequote                                                                                quotes
-  2384:58   error  Strings must use singlequote                                                                                quotes
-  2395:14   error  Strings must use singlequote                                                                                quotes
-  2405:58   error  Strings must use singlequote                                                                                quotes
-  2412:14   error  Strings must use singlequote                                                                                quotes
-  2418:65   error  Strings must use singlequote                                                                                quotes
-  2425:14   error  Strings must use singlequote                                                                                quotes
-  2427:64   error  Unexpected use of undefined                                                                                 no-undefined
-  2433:11   error  Expected { after 'if' condition                                                                             curly
-  2435:40   error  Missing whitespace after semicolon                                                                          semi-spacing
-  2437:13   error  Expected { after 'if' condition                                                                             curly
-  2443:13   error  Expected { after 'if' condition                                                                             curly
-  2453:14   error  Strings must use singlequote                                                                                quotes
-  2457:66   error  Unexpected use of undefined                                                                                 no-undefined
-  2458:64   error  Unexpected use of undefined                                                                                 no-undefined
-  2460:11   error  Expected { after 'if' condition                                                                             curly
-  2466:13   error  Expected { after 'if' condition                                                                             curly
-  2477:14   error  Strings must use singlequote                                                                                quotes
-  2479:66   error  Unexpected use of undefined                                                                                 no-undefined
-  2480:64   error  Unexpected use of undefined                                                                                 no-undefined
-  2481:64   error  Unexpected use of undefined                                                                                 no-undefined
-  2482:11   error  Expected { after 'if' condition                                                                             curly
-  2485:70   error  'fromPos' is already declared in the upper scope                                                            no-shadow
-  2485:79   error  'toPos' is already declared in the upper scope                                                              no-shadow
-  2492:14   error  Strings must use singlequote                                                                                quotes
-  2498:13   error  Expected { after 'if' condition                                                                             curly
-  2498:54   error  Missing whitespace after semicolon                                                                          semi-spacing
-  2498:55   error  Expected { after 'else'                                                                                     curly
-  2506:14   error  Strings must use singlequote                                                                                quotes
-  2511:11   error  Expected { after 'if' condition                                                                             curly
-  2511:41   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-  2515:11   error  Expected { after 'if' condition                                                                             curly
-  2517:44   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-  2520:41   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-  2522:36   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-  2536:14   error  Strings must use singlequote                                                                                quotes
-  2537:25   error  Expected to return a value at the end of method '_mapPosToBlock'                                            consistent-return
-  2556:14   error  Strings must use singlequote                                                                                quotes
-  2559:13   error  Return statement should not contain assignment                                                              no-return-assign
-  2565:14   error  Strings must use singlequote                                                                                quotes
-  2567:64   error  Unexpected use of undefined                                                                                 no-undefined
-  2568:58   error  Unexpected use of undefined                                                                                 no-undefined
-  2597:14   error  Strings must use singlequote                                                                                quotes
-  2599:66   error  Unexpected use of undefined                                                                                 no-undefined
-  2600:64   error  Unexpected use of undefined                                                                                 no-undefined
-  2602:78   error  Strings must use singlequote                                                                                quotes
-  2615:14   error  Strings must use singlequote                                                                                quotes
-  2617:68   error  Unexpected use of undefined                                                                                 no-undefined
-  2623:11   error  Split 'var' declarations into multiple statements                                                           one-var
-  2624:1    error  Expected indentation of 12 spaces but found 14                                                              indent
-  2626:11   error  Expected { after 'if' condition                                                                             curly
-  2636:11   error  Expected { after 'if' condition                                                                             curly
-  2706:46   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-  2727:15   error  Expected { after 'if' condition                                                                             curly
-  2750:17   error  Expected { after 'if' condition                                                                             curly
-  2752:17   error  Expected { after 'if' condition                                                                             curly
-  2766:43   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-  2806:45   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-  2806:82   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-  2828:17   error  Expected { after 'if' condition                                                                             curly
-  2839:14   error  Strings must use singlequote                                                                                quotes
-  2846:14   error  Strings must use singlequote                                                                                quotes
-  2851:11   error  Expected { after 'if' condition                                                                             curly
-  2857:14   error  Strings must use singlequote                                                                                quotes
-  2858:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  2859:83   error  Strings must use singlequote                                                                                quotes
-  2865:23   error  'set' is already declared in the upper scope                                                                no-shadow
-  2866:11   error  Split 'var' declarations into multiple statements                                                           one-var
-  2867:1    error  Expected indentation of 12 spaces but found 14                                                              indent
-  2867:62   error  Strings must use singlequote                                                                                quotes
-  2870:13   error  Return statement should not contain assignment                                                              no-return-assign
-  2873:58   error  Strings must use singlequote                                                                                quotes
-  2876:14   error  Strings must use singlequote                                                                                quotes
-  2877:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  2883:14   error  Strings must use singlequote                                                                                quotes
-  2884:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  2886:13   error  Return statement should not contain assignment                                                              no-return-assign
-  2889:23   error  'set' is already declared in the upper scope                                                                no-shadow
-  2890:58   error  Strings must use singlequote                                                                                quotes
-  2897:14   error  Strings must use singlequote                                                                                quotes
-  2898:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  2901:13   error  Return statement should not contain assignment                                                              no-return-assign
-  2904:23   error  'set' is already declared in the upper scope                                                                no-shadow
-  2905:58   error  Strings must use singlequote                                                                                quotes
-  2921:7    error  Expected { after 'if' condition                                                                             curly
-  2931:5    error  Expected space or tab after '/*' in comment                                                                 spaced-comment
-  2935:16   error  'MaskedRange' is already declared in the upper scope                                                        no-shadow
-  2942:14   error  Strings must use singlequote                                                                                quotes
-  2954:11   error  Expected { after 'if' condition                                                                             curly
-  2954:30   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-  2966:56   error  Strings must use singlequote                                                                                quotes
-  2973:14   error  Strings must use singlequote                                                                                quotes
-  2978:11   error  Split 'var' declarations into multiple statements                                                           one-var
-  2979:1    error  Expected indentation of 12 spaces but found 14                                                              indent
-  2980:1    error  Expected indentation of 12 spaces but found 14                                                              indent
-  2981:1    error  Expected indentation of 12 spaces but found 14                                                              indent
-  2997:14   error  Strings must use singlequote                                                                                quotes
-  2999:64   error  Unexpected use of undefined                                                                                 no-undefined
-  3000:62   error  Strings must use singlequote                                                                                quotes
-  3001:11   error  Expected { after 'if' condition                                                                             curly
-  3010:13   error  Split 'var' declarations into multiple statements                                                           one-var
-  3011:1    error  Expected indentation of 14 spaces but found 16                                                              indent
-  3012:1    error  Expected indentation of 14 spaces but found 16                                                              indent
-  3013:1    error  Expected indentation of 14 spaces but found 16                                                              indent
-  3015:13   error  Expected { after 'if' condition                                                                             curly
-  3015:83   error  Missing whitespace after semicolon                                                                          semi-spacing
-  3015:89   error  Expected { after 'if' condition                                                                             curly
-  3015:155  error  Missing whitespace after semicolon                                                                          semi-spacing
-  3015:156  error  Expected { after 'else'                                                                                     curly
-  3025:14   error  Strings must use singlequote                                                                                quotes
-  3031:11   error  Expected { after 'if' condition                                                                             curly
-  3033:11   error  Split 'var' declarations into multiple statements                                                           one-var
-  3034:1    error  Expected indentation of 12 spaces but found 14                                                              indent
-  3035:1    error  Expected indentation of 12 spaces but found 14                                                              indent
-  3036:1    error  Expected indentation of 12 spaces but found 14                                                              indent
-  3042:132  error  Strings must use singlequote                                                                                quotes
-  3045:14   error  Strings must use singlequote                                                                                quotes
-  3056:9    error  Missing JSDoc @return for function                                                                          valid-jsdoc
-  3057:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  3061:14   error  Strings must use singlequote                                                                                quotes
-  3062:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  3063:63   error  Strings must use singlequote                                                                                quotes
-  3074:5    error  Expected space or tab after '/*' in comment                                                                 spaced-comment
-  3086:7    error  Missing JSDoc @return for function                                                                          valid-jsdoc
-  3089:16   error  'MaskedDate' is already declared in the upper scope                                                         no-shadow
-  3100:14   error  Strings must use singlequote                                                                                quotes
-  3102:11   error  Expected { after 'if' condition                                                                             curly
-  3103:11   error  Expected { after 'if' condition                                                                             curly
-  3105:54   error  A function with a name starting with an uppercase letter should only be used as a constructor               new-cap
-  3107:11   error  Expected { after 'if' condition                                                                             curly
-  3108:11   error  Expected { after 'if' condition                                                                             curly
-  3124:13   error  Expected { after 'if' condition                                                                             curly
-  3127:55   error  Strings must use singlequote                                                                                quotes
-  3134:14   error  Strings must use singlequote                                                                                quotes
-  3144:71   error  Strings must use singlequote                                                                                quotes
-  3144:192  error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-  3144:213  error  Expected '===' and instead saw '=='                                                                         eqeqeq
-  3144:255  error  Expected '===' and instead saw '=='                                                                         eqeqeq
-  3149:14   error  Strings must use singlequote                                                                                quotes
-  3156:14   error  Strings must use singlequote                                                                                quotes
-  3157:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  3160:23   error  'set' is already declared in the upper scope                                                                no-shadow
-  3168:14   error  Strings must use singlequote                                                                                quotes
-  3169:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  3170:80   error  Strings must use singlequote                                                                                quotes
-  3172:23   error  'set' is already declared in the upper scope                                                                no-shadow
-  3173:55   error  Strings must use singlequote                                                                                quotes
-  3188:9    error  Split 'var' declarations into multiple statements                                                           one-var
-  3189:1    error  Expected indentation of 10 spaces but found 12                                                              indent
-  3190:1    error  Expected indentation of 10 spaces but found 12                                                              indent
-  3191:1    error  Expected indentation of 10 spaces but found 12                                                              indent
-  3192:1    error  Expected indentation of 10 spaces but found 12                                                              indent
-  3227:5    error  Expected space or tab after '/*' in comment                                                                 spaced-comment
-  3229:16   error  'MaskElement' is already declared in the upper scope                                                        no-shadow
-  3234:14   error  Strings must use singlequote                                                                                quotes
-  3236:9    error  Missing JSDoc for parameter 'start'                                                                         valid-jsdoc
-  3236:9    error  Missing JSDoc for parameter 'end'                                                                           valid-jsdoc
-  3238:11   error  Expected { after 'if' condition                                                                             curly
-  3238:21   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-  3238:36   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-  3242:23   error  Empty block statement                                                                                       no-empty
-  3247:14   error  Strings must use singlequote                                                                                quotes
-  3248:39   error  'start' is defined but never used. Allowed unused args must match /^_/u                                     no-unused-vars
-  3248:46   error  'end' is defined but never used. Allowed unused args must match /^_/u                                       no-unused-vars
-  3252:14   error  Strings must use singlequote                                                                                quotes
-  3254:9    error  Missing JSDoc for parameter 'handlers'                                                                      valid-jsdoc
-  3255:36   error  'handlers' is defined but never used. Allowed unused args must match /^_/u                                  no-unused-vars
-  3259:14   error  Strings must use singlequote                                                                                quotes
-  3262:14   error  Strings must use singlequote                                                                                quotes
-  3270:9    error  Missing JSDoc @return for function                                                                          valid-jsdoc
-  3271:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  3276:23   error  Empty block statement                                                                                       no-empty
-  3278:24   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-  3283:14   error  Strings must use singlequote                                                                                quotes
-  3284:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  3289:23   error  Empty block statement                                                                                       no-empty
-  3291:22   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-  3294:14   error  Strings must use singlequote                                                                                quotes
-  3295:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  3307:5    error  Expected space or tab after '/*' in comment                                                                 spaced-comment
-  3315:7    error  Missing JSDoc @return for function                                                                          valid-jsdoc
-  3318:16   error  'HTMLMaskElement' is already declared in the upper scope                                                    no-shadow
-  3333:14   error  Strings must use singlequote                                                                                quotes
-  3348:14   error  Strings must use singlequote                                                                                quotes
-  3367:14   error  Strings must use singlequote                                                                                quotes
-  3378:14   error  Strings must use singlequote                                                                                quotes
-  3391:14   error  Strings must use singlequote                                                                                quotes
-  3392:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  3401:14   error  Strings must use singlequote                                                                                quotes
-  3402:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  3403:11   error  Expected space or tab after '//' in comment                                                                 spaced-comment
-  3412:14   error  Strings must use singlequote                                                                                quotes
-  3413:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  3422:14   error  Strings must use singlequote                                                                                quotes
-  3423:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  3427:14   error  Strings must use singlequote                                                                                quotes
-  3428:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  3431:23   error  'set' is already declared in the upper scope                                                                no-shadow
-  3449:5    error  Expected space or tab after '/*' in comment                                                                 spaced-comment
-  3453:16   error  'HTMLContenteditableMaskElement' is already declared in the upper scope                                     no-shadow
-  3460:14   error  Strings must use singlequote                                                                                quotes
-  3467:11   error  Expected { after 'if' condition                                                                             curly
-  3485:14   error  Strings must use singlequote                                                                                quotes
-  3491:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  3502:14   error  Strings must use singlequote                                                                                quotes
-  3503:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  3509:14   error  Strings must use singlequote                                                                                quotes
-  3510:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  3514:23   error  'set' is already declared in the upper scope                                                                no-shadow
-  3526:5    error  Expected space or tab after '/*' in comment                                                                 spaced-comment
-  3542:16   error  'InputMask' is already declared in the upper scope                                                          no-shadow
-  3545:19   error  Do not nest ternary expressions                                                                             no-nested-ternary
-  3570:14   error  Strings must use singlequote                                                                                quotes
-  3572:23   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-  3575:14   error  Strings must use singlequote                                                                                quotes
-  3597:14   error  Strings must use singlequote                                                                                quotes
-  3599:11   error  Expected { after 'if' condition                                                                             curly
-  3607:14   error  Strings must use singlequote                                                                                quotes
-  3610:11   error  Expected { after 'if' condition                                                                             curly
-  3621:14   error  Strings must use singlequote                                                                                quotes
-  3629:9    error  Opening curly brace does not appear on the same line as controlling statement                               brace-style
-  3642:14   error  Strings must use singlequote                                                                                quotes
-  3650:14   error  Strings must use singlequote                                                                                quotes
-  3657:11   error  Expected { after 'if' condition                                                                             curly
-  3658:11   error  Expected { after 'if' condition                                                                             curly
-  3663:14   error  Strings must use singlequote                                                                                quotes
-  3665:11   error  Split 'var' declarations into multiple statements                                                           one-var
-  3666:1    error  Expected indentation of 12 spaces but found 14                                                              indent
-  3666:58   error  Strings must use singlequote                                                                                quotes
-  3670:11   error  Expected { after 'if' condition                                                                             curly
-  3671:11   error  Expected { after 'if' condition                                                                             curly
-  3672:11   error  Expected { after 'if' condition                                                                             curly
-  3677:14   error  Strings must use singlequote                                                                                quotes
-  3679:11   error  Expected { after 'if' condition                                                                             curly
-  3679:25   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-  3690:14   error  Strings must use singlequote                                                                                quotes
-  3698:13   error  Expected { after 'if' condition                                                                             curly
-  3711:14   error  Strings must use singlequote                                                                                quotes
-  3715:11   error  Expected { after 'if' condition                                                                             curly
-  3723:14   error  Strings must use singlequote                                                                                quotes
-  3733:14   error  Strings must use singlequote                                                                                quotes
-  3740:14   error  Strings must use singlequote                                                                                quotes
-  3742:11   error  Expected { after 'if' condition                                                                             curly
-  3749:14   error  Strings must use singlequote                                                                                quotes
-  3751:11   error  Expected { after 'if' condition                                                                             curly
-  3760:14   error  Strings must use singlequote                                                                                quotes
-  3762:11   error  Expected { after 'if' condition                                                                             curly
-  3771:11   error  Expected { after 'if' condition                                                                             curly
-  3777:14   error  Strings must use singlequote                                                                                quotes
-  3778:25   error  Expected to return a value at the end of method '_onInput'                                                  consistent-return
-  3782:11   error  Expected { after 'if' condition                                                                             curly
-  3784:1    error  Expected indentation of 14 spaces but found 10                                                              indent
-  3785:1    error  Expected indentation of 14 spaces but found 10                                                              indent
-  3798:14   error  Strings must use singlequote                                                                                quotes
-  3812:14   error  Strings must use singlequote                                                                                quotes
-  3820:14   error  Strings must use singlequote                                                                                quotes
-  3821:34   error  'ev' is defined but never used. Allowed unused args must match /^_/u                                        no-unused-vars
-  3827:14   error  Strings must use singlequote                                                                                quotes
-  3828:34   error  'ev' is defined but never used. Allowed unused args must match /^_/u                                        no-unused-vars
-  3834:14   error  Strings must use singlequote                                                                                quotes
-  3844:14   error  Strings must use singlequote                                                                                quotes
-  3845:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  3848:23   error  'set' is already declared in the upper scope                                                                no-shadow
-  3849:11   error  Expected { after 'if' condition                                                                             curly
-  3867:14   error  Strings must use singlequote                                                                                quotes
-  3868:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  3871:23   error  'set' is already declared in the upper scope                                                                no-shadow
-  3879:14   error  Strings must use singlequote                                                                                quotes
-  3880:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  3883:23   error  'set' is already declared in the upper scope                                                                no-shadow
-  3891:14   error  Strings must use singlequote                                                                                quotes
-  3892:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  3895:23   error  'set' is already declared in the upper scope                                                                no-shadow
-  3901:14   error  Strings must use singlequote                                                                                quotes
-  3902:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  3908:14   error  Strings must use singlequote                                                                                quotes
-  3909:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  3912:23   error  'set' is already declared in the upper scope                                                                no-shadow
-  3913:11   error  Expected { after 'if' condition                                                                             curly
-  3927:5    error  Expected space or tab after '/*' in comment                                                                 spaced-comment
-  3931:16   error  'MaskedEnum' is already declared in the upper scope                                                         no-shadow
-  3938:14   error  Strings must use singlequote                                                                                quotes
-  3946:11   error  Expected { after 'if' condition                                                                             curly
-  3948:55   error  Strings must use singlequote                                                                                quotes
-  3955:14   error  Strings must use singlequote                                                                                quotes
-  3957:11   error  Split 'var' declarations into multiple statements                                                           one-var
-  3958:1    error  Expected indentation of 12 spaces but found 14                                                              indent
-  3966:70   error  Strings must use singlequote                                                                                quotes
-  3988:5    error  Expected space or tab after '/*' in comment                                                                 spaced-comment
-  4008:7    error  Missing JSDoc @return for function                                                                          valid-jsdoc
-  4008:7    error  Missing JSDoc for parameter 'opts'                                                                          valid-jsdoc
-  4009:16   error  'MaskedNumber' is already declared in the upper scope                                                       no-shadow
-  4020:14   error  Strings must use singlequote                                                                                quotes
-  4022:57   error  Strings must use singlequote                                                                                quotes
-  4029:14   error  Strings must use singlequote                                                                                quotes
-  4044:14   error  Strings must use singlequote                                                                                quotes
-  4051:14   error  Strings must use singlequote                                                                                quotes
-  4063:14   error  Strings must use singlequote                                                                                quotes
-  4071:73   error  Strings must use singlequote                                                                                quotes
-  4076:14   error  Strings must use singlequote                                                                                quotes
-  4078:77   error  Unexpected use of undefined                                                                                 no-undefined
-  4084:15   error  Expected { after 'if' condition                                                                             curly
-  4093:14   error  Strings must use singlequote                                                                                quotes
-  4095:64   error  Unexpected use of undefined                                                                                 no-undefined
-  4103:14   error  Strings must use singlequote                                                                                quotes
-  4105:66   error  Unexpected use of undefined                                                                                 no-undefined
-  4106:64   error  Unexpected use of undefined                                                                                 no-undefined
-  4107:61   error  Unexpected use of undefined                                                                                 no-undefined
-  4109:15   error  Identifier '_this$_adjustRangeWit' is not in camel case                                                     camelcase
-  4111:15   error  Identifier '_this$_adjustRangeWit2' is not in camel case                                                    camelcase
-  4113:21   error  Identifier '_this$_adjustRangeWit2' is not in camel case                                                    camelcase
-  4114:19   error  Identifier '_this$_adjustRangeWit2' is not in camel case                                                    camelcase
-  4115:96   error  Strings must use singlequote                                                                                quotes
-  4122:14   error  Strings must use singlequote                                                                                quotes
-  4124:64   error  Unexpected use of undefined                                                                                 no-undefined
-  4125:11   error  Expected { after 'if' condition                                                                             curly
-  4125:94   error  Strings must use singlequote                                                                                quotes
-  4132:77   error  Strings must use singlequote                                                                                quotes
-  4145:14   error  Strings must use singlequote                                                                                quotes
-  4150:13   error  Expected { after 'if' condition                                                                             curly
-  4156:14   error  Strings must use singlequote                                                                                quotes
-  4160:11   error  Expected { after 'if' condition                                                                             curly
-  4164:11   error  Expected { after 'if' condition                                                                             curly
-  4172:14   error  Strings must use singlequote                                                                                quotes
-  4174:66   error  Unexpected use of undefined                                                                                 no-undefined
-  4175:64   error  Unexpected use of undefined                                                                                 no-undefined
-  4177:15   error  Identifier '_this$_adjustRangeWit3' is not in camel case                                                    camelcase
-  4179:15   error  Identifier '_this$_adjustRangeWit4' is not in camel case                                                    camelcase
-  4181:21   error  Identifier '_this$_adjustRangeWit4' is not in camel case                                                    camelcase
-  4182:19   error  Identifier '_this$_adjustRangeWit4' is not in camel case                                                    camelcase
-  4201:14   error  Strings must use singlequote                                                                                quotes
-  4203:11   error  Expected { after 'if' condition                                                                             curly
-  4209:1    error  Expected indentation of 12 spaces but found 14                                                              indent
-  4210:1    error  Expected indentation of 14 spaces but found 16                                                              indent
-  4212:1    error  Expected indentation of 14 spaces but found 16                                                              indent
-  4213:1    error  Expected indentation of 16 spaces but found 18                                                              indent
-  4215:1    error  Expected indentation of 16 spaces but found 18                                                              indent
-  4216:1    error  Expected indentation of 18 spaces but found 20                                                              indent
-  4217:1    error  Expected indentation of 16 spaces but found 18                                                              indent
-  4218:1    error  Expected indentation of 14 spaces but found 16                                                              indent
-  4220:1    error  Expected indentation of 14 spaces but found 16                                                              indent
-  4221:1    error  Expected indentation of 12 spaces but found 14                                                              indent
-  4225:1    error  Expected indentation of 12 spaces but found 14                                                              indent
-  4226:1    error  Expected indentation of 14 spaces but found 16                                                              indent
-  4228:1    error  Expected indentation of 14 spaces but found 16                                                              indent
-  4229:1    error  Expected indentation of 16 spaces but found 18                                                              indent
-  4230:1    error  Expected indentation of 14 spaces but found 16                                                              indent
-  4231:1    error  Expected indentation of 12 spaces but found 14                                                              indent
-  4241:14   error  Strings must use singlequote                                                                                quotes
-  4251:1    error  Expected indentation of 14 spaces but found 12                                                              indent
-  4251:22   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-  4252:1    error  Expected indentation of 14 spaces but found 12                                                              indent
-  4252:22   error  Expected '===' and instead saw '=='                                                                         eqeqeq
-  4255:73   error  Strings must use singlequote                                                                                quotes
-  4262:14   error  Strings must use singlequote                                                                                quotes
-  4268:13   error  Expected { after 'if' condition                                                                             curly
-  4268:26   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-  4269:13   error  Expected { after 'if' condition                                                                             curly
-  4269:26   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-  4270:13   error  Expected { after 'if' condition                                                                             curly
-  4272:13   error  Expected { after 'if' condition                                                                             curly
-  4273:13   error  Expected { after 'if' condition                                                                             curly
-  4277:57   error  Strings must use singlequote                                                                                quotes
-  4282:14   error  Strings must use singlequote                                                                                quotes
-  4291:11   error  Expected { after 'if' condition                                                                             curly
-  4296:13   error  Expected { after 'if' condition                                                                             curly
-  4304:14   error  Strings must use singlequote                                                                                quotes
-  4306:11   error  Expected { after 'if' condition                                                                             curly
-  4308:11   error  Expected { after 'if' condition                                                                             curly
-  4317:14   error  Strings must use singlequote                                                                                quotes
-  4318:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  4321:23   error  'set' is already declared in the upper scope                                                                no-shadow
-  4322:57   error  Strings must use singlequote                                                                                quotes
-  4329:14   error  Strings must use singlequote                                                                                quotes
-  4330:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  4333:23   error  'set' is already declared in the upper scope                                                                no-shadow
-  4334:57   error  Strings must use singlequote                                                                                quotes
-  4339:14   error  Strings must use singlequote                                                                                quotes
-  4340:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  4343:23   error  'set' is already declared in the upper scope                                                                no-shadow
-  4352:14   error  Strings must use singlequote                                                                                quotes
-  4353:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  4354:42   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-  4354:78   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-  4374:5    error  Expected space or tab after '/*' in comment                                                                 spaced-comment
-  4378:16   error  'MaskedRegExp' is already declared in the upper scope                                                       no-shadow
-  4385:14   error  Strings must use singlequote                                                                                quotes
-  4392:11   error  Expected { after 'if' condition                                                                             curly
-  4396:57   error  Strings must use singlequote                                                                                quotes
-  4407:5    error  Expected space or tab after '/*' in comment                                                                 spaced-comment
-  4411:16   error  'MaskedFunction' is already declared in the upper scope                                                     no-shadow
-  4418:14   error  Strings must use singlequote                                                                                quotes
-  4425:11   error  Expected { after 'if' condition                                                                             curly
-  4427:59   error  Strings must use singlequote                                                                                quotes
-  4437:5    error  Expected space or tab after '/*' in comment                                                                 spaced-comment
-  4447:7    error  Missing JSDoc @return for function                                                                          valid-jsdoc
-  4450:16   error  'MaskedDynamic' is already declared in the upper scope                                                      no-shadow
-  4465:14   error  Strings must use singlequote                                                                                quotes
-  4467:58   error  Strings must use singlequote                                                                                quotes
-  4481:14   error  Strings must use singlequote                                                                                quotes
-  4494:14   error  Strings must use singlequote                                                                                quotes
-  4496:67   error  Unexpected use of undefined                                                                                 no-undefined
-  4497:64   error  Unexpected use of undefined                                                                                 no-undefined
-  4498:74   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-  4500:66   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-  4501:1    error  Expected indentation of 12 spaces but found 10                                                              indent
-  4536:14   error  Strings must use singlequote                                                                                quotes
-  4551:14   error  Strings must use singlequote                                                                                quotes
-  4553:64   error  Unexpected use of undefined                                                                                 no-undefined
-  4561:14   error  Strings must use singlequote                                                                                quotes
-  4563:11   error  Split 'var' declarations into multiple statements                                                           one-var
-  4569:74   error  Strings must use singlequote                                                                                quotes
-  4576:14   error  Strings must use singlequote                                                                                quotes
-  4578:11   error  Expected { after 'if' condition                                                                             curly
-  4588:14   error  Strings must use singlequote                                                                                quotes
-  4600:1    error  Expected indentation of 16 spaces but found 12                                                              indent
-  4610:14   error  Strings must use singlequote                                                                                quotes
-  4625:14   error  Strings must use singlequote                                                                                quotes
-  4627:11   error  Split 'var' declarations into multiple statements                                                           one-var
-  4633:179  error  Strings must use singlequote                                                                                quotes
-  4640:14   error  Strings must use singlequote                                                                                quotes
-  4642:11   error  Expected { after 'if' condition                                                                             curly
-  4644:58   error  Strings must use singlequote                                                                                quotes
-  4651:14   error  Strings must use singlequote                                                                                quotes
-  4653:11   error  Split 'var' declarations into multiple statements                                                           one-var
-  4659:183  error  Strings must use singlequote                                                                                quotes
-  4662:14   error  Strings must use singlequote                                                                                quotes
-  4663:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  4666:23   error  'set' is already declared in the upper scope                                                                no-shadow
-  4667:58   error  Strings must use singlequote                                                                                quotes
-  4674:14   error  Strings must use singlequote                                                                                quotes
-  4675:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  4678:23   error  'set' is already declared in the upper scope                                                                no-shadow
-  4679:58   error  Strings must use singlequote                                                                                quotes
-  4686:14   error  Strings must use singlequote                                                                                quotes
-  4687:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  4690:9    error  Bad line breaking before and after ','                                                                      comma-style
-  4691:23   error  'set' is already declared in the upper scope                                                                no-shadow
-  4706:14   error  Strings must use singlequote                                                                                quotes
-  4707:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  4711:14   error  Strings must use singlequote                                                                                quotes
-  4712:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  4713:83   error  Strings must use singlequote                                                                                quotes
-  4722:23   error  'set' is already declared in the upper scope                                                                no-shadow
-  4723:11   error  Split 'var' declarations into multiple statements                                                           one-var
-  4724:1    error  Expected indentation of 12 spaces but found 14                                                              indent
-  4725:1    error  Expected indentation of 12 spaces but found 14                                                              indent
-  4726:1    error  Expected indentation of 12 spaces but found 14                                                              indent
-  4726:62   error  Strings must use singlequote                                                                                quotes
-  4726:79   error  Strings must use singlequote                                                                                quotes
-  4726:97   error  Strings must use singlequote                                                                                quotes
-  4729:13   error  Return statement should not contain assignment                                                              no-return-assign
-  4732:30   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
-  4737:58   error  Strings must use singlequote                                                                                quotes
-  4740:14   error  Strings must use singlequote                                                                                quotes
-  4741:23   error  'get' is already declared in the upper scope                                                                no-shadow
-  4742:113  error  Strings must use singlequote                                                                                quotes
-  4744:23   error  'set' is already declared in the upper scope                                                                no-shadow
-  4744:27   error  'overwrite' is defined but never used. Allowed unused args must match /^_/u                                 no-unused-vars
-  4745:11   error  Unexpected console statement                                                                                no-console
-  4753:9    error  Expected { after 'if' condition                                                                             curly
-  4772:9    error  Method 'dispatch' expected no return value                                                                  consistent-return
-  4787:59   error  Unexpected use of undefined                                                                                 no-undefined
-  4788:57   error  Unexpected use of undefined                                                                                 no-undefined
-  4810:5    error  'globalThis' is not defined                                                                                 no-undef
-  4831:51   error  There should be no space after '{'                                                                          object-curly-spacing
-  4831:63   error  There should be no space before '}'                                                                         object-curly-spacing
-  4834:3    error  Expected space or tab after '//' in comment                                                                 spaced-comment
-  4836:20   error  'IMask' is not defined                                                                                      no-undef
+     9:5    error  Use the global form of 'use strict'                                                                         strict
+    11:26   error  Do not nest ternary expressions                                                                             no-nested-ternary
+    11:62   error  'globalThis' is not defined                                                                                 no-undef
+    11:75   error  Do not nest ternary expressions                                                                             no-nested-ternary
+    11:116  error  Do not nest ternary expressions                                                                             no-nested-ternary
+    11:148  error  'global' is not defined                                                                                     no-undef
+    14:7    error  Return statement should not contain assignment                                                              no-return-assign
+    14:36   error  Unexpected use of comma operator                                                                            no-sequences
+    18:28   error  Expected '===' and instead saw '=='                                                                         eqeqeq
+    22:9    error  Identifier 'global_1' is not in camel case                                                                  camelcase
+    42:13   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
+    54:49   error  Unexpected 'this'                                                                                           no-invalid-this
+    84:31   error  Expected '===' and instead saw '=='                                                                         eqeqeq
+    90:14   error  Expected '===' and instead saw '=='                                                                         eqeqeq
+    90:17   error  Unexpected use of undefined                                                                                 no-undefined
+    91:15   error  A function with a name starting with an uppercase letter should only be used as a constructor               new-cap
+   127:13   error  A function with a name starting with an uppercase letter should only be used as a constructor               new-cap
+   136:22   error  Identifier 'global_1' is not in camel case                                                                  camelcase
+   152:12   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
+   158:71   error  Expected to return a value at the end of function 'getOwnPropertyDescriptor'                                consistent-return
+   158:71   error  'getOwnPropertyDescriptor' is already declared in the upper scope                                           no-shadow
+   179:15   error  A function with a name starting with an uppercase letter should only be used as a constructor               new-cap
+   200:15   error  A function with a name starting with an uppercase letter should only be used as a constructor               new-cap
+   223:9    error  Identifier 'global_1' is not in camel case                                                                  camelcase
+   230:17   error  Identifier 'global_1' is not in camel case                                                                  camelcase
+   243:19   error  Identifier 'global_1' is not in camel case                                                                  camelcase
+   248:66   error  Unexpected use of undefined                                                                                 no-undefined
+   260:41   error  Unexpected use of undefined                                                                                 no-undefined
+   271:21   error  Identifier 'global_1' is not in camel case                                                                  camelcase
+   283:17   error  A function with a name starting with an uppercase letter should only be used as a constructor               new-cap
+   350:19   error  Identifier 'global_1' is not in camel case                                                                  camelcase
+   368:51   error  'toString' is already declared in the upper scope                                                           no-shadow
+   369:23   error  Unexpected 'this'                                                                                           no-invalid-this
+   369:63   error  Unexpected 'this'                                                                                           no-invalid-this
+   369:93   error  Unexpected 'this'                                                                                           no-invalid-this
+   373:16   error  Identifier 'global_1' is not in camel case                                                                  camelcase
+   376:58   error  Unexpected use of undefined                                                                                 no-undefined
+   380:77   error  Identifier 'global_1' is not in camel case                                                                  camelcase
+   380:146  error  Identifier 'global_1' is not in camel case                                                                  camelcase
+   380:169  error  Identifier 'global_1' is not in camel case                                                                  camelcase
+   419:31   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
+   423:23   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
+   456:7    error  The body of a for-in should be wrapped in an if statement to filter unwanted properties from the prototype  guard-for-in
+   457:9    error  Expected an assignment or function call and instead saw an expression                                       no-unused-expressions
+   463:11   error  Expected an assignment or function call and instead saw an expression                                       no-unused-expressions
+   494:11   error  'keys' is already declared in the upper scope                                                               no-shadow
+   500:11   error  'keys' is already declared in the upper scope                                                               no-shadow
+   502:11   error  'getOwnPropertyDescriptor' is already declared in the upper scope                                           no-shadow
+   516:14   error  Do not nest ternary expressions                                                                             no-nested-ternary
+   516:20   error  Expected '===' and instead saw '=='                                                                         eqeqeq
+   516:41   error  Do not nest ternary expressions                                                                             no-nested-ternary
+   516:47   error  Expected '===' and instead saw '=='                                                                         eqeqeq
+   526:9    error  Identifier 'isForced_1' is not in camel case                                                                camelcase
+   554:18   error  Identifier 'global_1' is not in camel case                                                                  camelcase
+   556:18   error  Identifier 'global_1' is not in camel case                                                                  camelcase
+   558:19   error  Identifier 'global_1' is not in camel case                                                                  camelcase
+   562:9    error  The body of a for-in should be wrapped in an if statement to filter unwanted properties from the prototype  guard-for-in
+   574:45   error  Unexpected use of undefined                                                                                 no-undefined
+   596:46   error  'keys' is already declared in the upper scope                                                               no-shadow
+   633:20   error  'Symbol' is not defined                                                                                     no-undef
+   639:42   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
+   639:91   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
+   640:34   error  'source' is defined but never used. Allowed unused args must match /^_/u                                    no-unused-vars
+   650:15   error  'keys' is already declared in the upper scope                                                               no-shadow
+   683:47   error  Unexpected 'this'                                                                                           no-invalid-this
+   686:22   error  Expected '===' and instead saw '=='                                                                         eqeqeq
+   687:15   error  A function with a name starting with an uppercase letter should only be used as a constructor               new-cap
+   708:38   error  Unexpected use of undefined                                                                                 no-undefined
+   711:53   error  Expected '===' and instead saw '=='                                                                         eqeqeq
+   735:5    error  Definition for rule 'unicorn/no-unsafe-regex' was not found                                                 unicorn/no-unsafe-regex
+   754:79   error  Unexpected use of undefined                                                                                 no-undefined
+   772:81   error  Unexpected use of undefined                                                                                 no-undefined
+   794:19   error  Identifier 'global_1' is not in camel case                                                                  camelcase
+   800:50   error  'Symbol' is not defined                                                                                     no-undef
+   801:9    error  '_typeof' is a function                                                                                     no-func-assign
+   801:29   error  'obj' is already declared in the upper scope                                                                no-shadow
+   805:9    error  '_typeof' is a function                                                                                     no-func-assign
+   805:29   error  'obj' is already declared in the upper scope                                                                no-shadow
+   806:77   error  'Symbol' is not defined                                                                                     no-undef
+   806:95   error  'Symbol' is not defined                                                                                     no-undef
+   874:7    error  '_getPrototypeOf' is a function                                                                             no-func-assign
+   874:82   error  '_getPrototypeOf' is already declared in the upper scope                                                    no-shadow
+   874:98   error  'o' is already declared in the upper scope                                                                  no-shadow
+   875:16   error  The '__proto__' property is deprecated                                                                      no-proto
+   881:7    error  '_setPrototypeOf' is a function                                                                             no-func-assign
+   881:59   error  '_setPrototypeOf' is already declared in the upper scope                                                    no-shadow
+   881:75   error  'o' is already declared in the upper scope                                                                  no-shadow
+   881:78   error  'p' is already declared in the upper scope                                                                  no-shadow
+   882:9    error  The '__proto__' property is deprecated                                                                      no-proto
+   890:18   error  Expected '===' and instead saw '=='                                                                         eqeqeq
+   909:18   error  Expected '===' and instead saw '=='                                                                         eqeqeq
+   963:45   error  'Reflect' is not defined                                                                                    no-undef
+   964:9    error  '_get' is a function                                                                                        no-func-assign
+   964:16   error  'Reflect' is not defined                                                                                    no-undef
+   966:9    error  '_get' is a function                                                                                        no-func-assign
+   966:25   error  '_get' is already declared in the upper scope                                                               no-shadow
+   966:30   error  'target' is already declared in the upper scope                                                             no-shadow
+   966:38   error  'property' is already declared in the upper scope                                                           no-shadow
+   966:48   error  'receiver' is already declared in the upper scope                                                           no-shadow
+   975:13   error  Function '_get' expected no return value                                                                    consistent-return
+   978:11   error  Function '_get' expected no return value                                                                    consistent-return
+   986:45   error  'Reflect' is not defined                                                                                    no-undef
+   987:9    error  'set$1' is a function                                                                                       no-func-assign
+   987:17   error  'Reflect' is not defined                                                                                    no-undef
+   989:9    error  'set$1' is a function                                                                                       no-func-assign
+   989:26   error  'set' is already declared in the upper scope                                                                no-shadow
+   989:30   error  'target' is already declared in the upper scope                                                             no-shadow
+   989:38   error  'property' is already declared in the upper scope                                                           no-shadow
+   989:48   error  'value' is already declared in the upper scope                                                              no-shadow
+   989:55   error  'receiver' is already declared in the upper scope                                                           no-shadow
+  1039:14   error  Expected to return a value at the end of function '_arrayWithHoles'                                         consistent-return
+  1046:13   error  'Symbol' is not defined                                                                                     no-undef
+  1053:11   error  It's not necessary to initialize '_e' to undefined                                                          no-undef-init
+  1053:16   error  Unexpected use of undefined                                                                                 no-undefined
+  1056:27   error  'Symbol' is not defined                                                                                     no-undef
+  1068:35   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
+  1078:7    error  Function '_iterableToArrayLimit' expected no return value                                                   consistent-return
+  1085:5    error  Missing JSDoc @return for function                                                                          valid-jsdoc
+  1085:5    error  Missing JSDoc for parameter 'str'                                                                           valid-jsdoc
+  1134:22   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
+  1147:16   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
+  1155:30   error  Expected '===' and instead saw '=='                                                                         eqeqeq
+  1157:19   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
+  1163:31   error  Expected '===' and instead saw '=='                                                                         eqeqeq
+  1165:21   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
+  1168:13   error  'keys' is already declared in the upper scope                                                               no-shadow
+  1202:7    error  Missing JSDoc for parameter 'value'                                                                         valid-jsdoc
+  1202:7    error  Missing JSDoc for parameter 'cursorPos'                                                                     valid-jsdoc
+  1202:7    error  Missing JSDoc for parameter 'oldValue'                                                                      valid-jsdoc
+  1202:7    error  Missing JSDoc for parameter 'oldSelection'                                                                  valid-jsdoc
+  1203:16   error  'ActionDetails' is already declared in the upper scope                                                      no-shadow
+  1223:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  1233:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  1243:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  1253:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  1265:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  1275:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  1285:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  1295:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  1324:7    error  Missing JSDoc for parameter 'details'                                                                       valid-jsdoc
+  1325:16   error  'ChangeDetails' is already declared in the upper scope                                                      no-shadow
+  1354:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  1371:16   error  'ContinuousTailDetails' is already declared in the upper scope                                              no-shadow
+  1372:62   error  Unexpected use of undefined                                                                                 no-undefined
+  1373:61   error  Unexpected use of undefined                                                                                 no-undefined
+  1374:58   error  Unexpected use of undefined                                                                                 no-undefined
+  1385:25   error  'toString' is already declared in the upper scope                                                           no-shadow
+  1412:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  1419:23   error  'set' is already declared in the upper scope                                                                no-shadow
+  1435:59   error  Unexpected use of undefined                                                                                 no-undefined
+  1465:7    error  Missing JSDoc for parameter 'opts'                                                                          valid-jsdoc
+  1466:16   error  'Masked' is already declared in the upper scope                                                             no-shadow
+  1510:9    error  Missing JSDoc @return for function                                                                          valid-jsdoc
+  1510:9    error  Missing JSDoc for parameter 'value'                                                                         valid-jsdoc
+  1524:9    error  Missing JSDoc @return for function                                                                          valid-jsdoc
+  1524:9    error  Missing JSDoc for parameter 'cursorPos'                                                                     valid-jsdoc
+  1524:9    error  Missing JSDoc for parameter 'direction'                                                                     valid-jsdoc
+  1525:52   error  'direction' is defined but never used. Allowed unused args must match /^_/u                                 no-unused-vars
+  1533:66   error  Unexpected use of undefined                                                                                 no-undefined
+  1534:64   error  Unexpected use of undefined                                                                                 no-undefined
+  1542:66   error  Unexpected use of undefined                                                                                 no-undefined
+  1543:64   error  Unexpected use of undefined                                                                                 no-undefined
+  1562:64   error  Unexpected use of undefined                                                                                 no-undefined
+  1578:64   error  Unexpected use of undefined                                                                                 no-undefined
+  1579:65   error  Unexpected use of undefined                                                                                 no-undefined
+  1588:39   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
+  1644:25   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
+  1657:66   error  Unexpected use of undefined                                                                                 no-undefined
+  1658:64   error  Unexpected use of undefined                                                                                 no-undefined
+  1706:64   error  Unexpected use of undefined                                                                                 no-undefined
+  1763:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  1768:23   error  'set' is already declared in the upper scope                                                                no-shadow
+  1773:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  1776:23   error  'set' is already declared in the upper scope                                                                no-shadow
+  1781:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  1784:23   error  'set' is already declared in the upper scope                                                                no-shadow
+  1793:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  1796:23   error  'set' is already declared in the upper scope                                                                no-shadow
+  1803:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  1808:23   error  'set' is already declared in the upper scope                                                                no-shadow
+  1819:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  1839:16   error  Expected '===' and instead saw '=='                                                                         eqeqeq
+  1918:7    error  Missing JSDoc for parameter 'opts'                                                                          valid-jsdoc
+  1919:16   error  'PatternInputDefinition' is already declared in the upper scope                                             no-shadow
+  1940:66   error  Unexpected use of undefined                                                                                 no-undefined
+  1941:64   error  Unexpected use of undefined                                                                                 no-undefined
+  1953:64   error  Unexpected use of undefined                                                                                 no-undefined
+  2009:66   error  Unexpected use of undefined                                                                                 no-undefined
+  2010:64   error  Unexpected use of undefined                                                                                 no-undefined
+  2011:61   error  Unexpected use of undefined                                                                                 no-undefined
+  2017:68   error  Unexpected use of undefined                                                                                 no-undefined
+  2050:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  2055:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  2060:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  2065:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  2071:23   error  'set' is already declared in the upper scope                                                                no-shadow
+  2089:7    error  Missing JSDoc for parameter 'opts'                                                                          valid-jsdoc
+  2090:16   error  'PatternFixedDefinition' is already declared in the upper scope                                             no-shadow
+  2106:66   error  Unexpected use of undefined                                                                                 no-undefined
+  2107:64   error  Unexpected use of undefined                                                                                 no-undefined
+  2116:41   error  'cursorPos' is defined but never used. Allowed unused args must match /^_/u                                 no-unused-vars
+  2117:68   error  Unexpected use of undefined                                                                                 no-undefined
+  2136:66   error  Unexpected use of undefined                                                                                 no-undefined
+  2137:64   error  Unexpected use of undefined                                                                                 no-undefined
+  2138:64   error  Unexpected use of undefined                                                                                 no-undefined
+  2144:64   error  Unexpected use of undefined                                                                                 no-undefined
+  2171:15   error  'toPos' is assigned a value but never used                                                                  no-unused-vars
+  2171:64   error  Unexpected use of undefined                                                                                 no-undefined
+  2188:20   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
+  2199:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  2204:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  2209:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  2214:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  2220:23   error  'set' is already declared in the upper scope                                                                no-shadow
+  2232:16   error  'ChunksTailDetails' is already declared in the upper scope                                                  no-shadow
+  2233:63   error  Unexpected use of undefined                                                                                 no-undefined
+  2234:61   error  Unexpected use of undefined                                                                                 no-undefined
+  2244:25   error  'toString' is already declared in the upper scope                                                           no-shadow
+  2259:65   error  Expected '===' and instead saw '=='                                                                         eqeqeq
+  2272:32   error  Expected '===' and instead saw '=='                                                                         eqeqeq
+  2276:74   error  Expected '===' and instead saw '=='                                                                         eqeqeq
+  2375:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  2385:23   error  'set' is already declared in the upper scope                                                                no-shadow
+  2421:7    error  Missing JSDoc @return for function                                                                          valid-jsdoc
+  2422:16   error  'MaskedPattern' is already declared in the upper scope                                                      no-shadow
+  2423:61   error  Unexpected use of undefined                                                                                 no-undefined
+  2440:63   error  Unexpected use of undefined                                                                                 no-undefined
+  2467:26   error  Expected to return a value at the end of function                                                           consistent-return
+  2605:64   error  Unexpected use of undefined                                                                                 no-undefined
+  2641:66   error  Unexpected use of undefined                                                                                 no-undefined
+  2642:64   error  Unexpected use of undefined                                                                                 no-undefined
+  2667:66   error  Unexpected use of undefined                                                                                 no-undefined
+  2668:64   error  Unexpected use of undefined                                                                                 no-undefined
+  2669:64   error  Unexpected use of undefined                                                                                 no-undefined
+  2675:70   error  'fromPos' is already declared in the upper scope                                                            no-shadow
+  2675:79   error  'toPos' is already declared in the upper scope                                                              no-shadow
+  2705:41   error  Expected '===' and instead saw '=='                                                                         eqeqeq
+  2715:44   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
+  2718:41   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
+  2720:36   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
+  2735:25   error  Expected to return a value at the end of method '_mapPosToBlock'                                            consistent-return
+  2757:13   error  Return statement should not contain assignment                                                              no-return-assign
+  2765:64   error  Unexpected use of undefined                                                                                 no-undefined
+  2766:58   error  Unexpected use of undefined                                                                                 no-undefined
+  2797:66   error  Unexpected use of undefined                                                                                 no-undefined
+  2798:64   error  Unexpected use of undefined                                                                                 no-undefined
+  2815:68   error  Unexpected use of undefined                                                                                 no-undefined
+  2908:46   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
+  2974:43   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
+  3014:45   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
+  3014:82   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
+  3070:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  3077:23   error  'set' is already declared in the upper scope                                                                no-shadow
+  3082:13   error  Return statement should not contain assignment                                                              no-return-assign
+  3089:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  3096:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  3098:13   error  Return statement should not contain assignment                                                              no-return-assign
+  3101:23   error  'set' is already declared in the upper scope                                                                no-shadow
+  3110:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  3113:13   error  Return statement should not contain assignment                                                              no-return-assign
+  3116:23   error  'set' is already declared in the upper scope                                                                no-shadow
+  3149:16   error  'MaskedRange' is already declared in the upper scope                                                        no-shadow
+  3168:30   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
+  3215:64   error  Unexpected use of undefined                                                                                 no-undefined
+  3282:9    error  Missing JSDoc @return for function                                                                          valid-jsdoc
+  3283:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  3288:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  3312:7    error  Missing JSDoc @return for function                                                                          valid-jsdoc
+  3315:16   error  'MaskedDate' is already declared in the upper scope                                                         no-shadow
+  3335:54   error  A function with a name starting with an uppercase letter should only be used as a constructor               new-cap
+  3380:192  error  Expected '!==' and instead saw '!='                                                                         eqeqeq
+  3380:213  error  Expected '===' and instead saw '=='                                                                         eqeqeq
+  3380:255  error  Expected '===' and instead saw '=='                                                                         eqeqeq
+  3393:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  3396:23   error  'set' is already declared in the upper scope                                                                no-shadow
+  3405:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  3408:23   error  'set' is already declared in the upper scope                                                                no-shadow
+  3465:16   error  'MaskElement' is already declared in the upper scope                                                        no-shadow
+  3472:9    error  Missing JSDoc for parameter 'start'                                                                         valid-jsdoc
+  3472:9    error  Missing JSDoc for parameter 'end'                                                                           valid-jsdoc
+  3474:21   error  Expected '===' and instead saw '=='                                                                         eqeqeq
+  3474:36   error  Expected '===' and instead saw '=='                                                                         eqeqeq
+  3480:23   error  Empty block statement                                                                                       no-empty
+  3486:39   error  'start' is defined but never used. Allowed unused args must match /^_/u                                     no-unused-vars
+  3486:46   error  'end' is defined but never used. Allowed unused args must match /^_/u                                       no-unused-vars
+  3492:9    error  Missing JSDoc for parameter 'handlers'                                                                      valid-jsdoc
+  3493:36   error  'handlers' is defined but never used. Allowed unused args must match /^_/u                                  no-unused-vars
+  3508:9    error  Missing JSDoc @return for function                                                                          valid-jsdoc
+  3509:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  3514:23   error  Empty block statement                                                                                       no-empty
+  3516:24   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
+  3522:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  3527:23   error  Empty block statement                                                                                       no-empty
+  3529:22   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
+  3533:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  3553:7    error  Missing JSDoc @return for function                                                                          valid-jsdoc
+  3556:16   error  'HTMLMaskElement' is already declared in the upper scope                                                    no-shadow
+  3630:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  3640:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  3651:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  3661:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  3666:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  3669:23   error  'set' is already declared in the upper scope                                                                no-shadow
+  3691:16   error  'HTMLContenteditableMaskElement' is already declared in the upper scope                                     no-shadow
+  3731:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  3743:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  3750:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  3754:23   error  'set' is already declared in the upper scope                                                                no-shadow
+  3782:16   error  'InputMask' is already declared in the upper scope                                                          no-shadow
+  3785:19   error  Do not nest ternary expressions                                                                             no-nested-ternary
+  3812:23   error  Expected '===' and instead saw '=='                                                                         eqeqeq
+  3873:9    error  Opening curly brace does not appear on the same line as controlling statement                               brace-style
+  3933:25   error  Expected '===' and instead saw '=='                                                                         eqeqeq
+  4046:25   error  Expected to return a value at the end of method '_onInput'                                                  consistent-return
+  4091:34   error  'ev' is defined but never used. Allowed unused args must match /^_/u                                        no-unused-vars
+  4098:34   error  'ev' is defined but never used. Allowed unused args must match /^_/u                                        no-unused-vars
+  4115:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  4118:23   error  'set' is already declared in the upper scope                                                                no-shadow
+  4140:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  4143:23   error  'set' is already declared in the upper scope                                                                no-shadow
+  4152:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  4155:23   error  'set' is already declared in the upper scope                                                                no-shadow
+  4164:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  4167:23   error  'set' is already declared in the upper scope                                                                no-shadow
+  4174:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  4181:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  4184:23   error  'set' is already declared in the upper scope                                                                no-shadow
+  4205:16   error  'MaskedEnum' is already declared in the upper scope                                                         no-shadow
+  4284:7    error  Missing JSDoc @return for function                                                                          valid-jsdoc
+  4284:7    error  Missing JSDoc for parameter 'opts'                                                                          valid-jsdoc
+  4285:16   error  'MaskedNumber' is already declared in the upper scope                                                       no-shadow
+  4354:77   error  Unexpected use of undefined                                                                                 no-undefined
+  4373:64   error  Unexpected use of undefined                                                                                 no-undefined
+  4383:66   error  Unexpected use of undefined                                                                                 no-undefined
+  4384:64   error  Unexpected use of undefined                                                                                 no-undefined
+  4385:61   error  Unexpected use of undefined                                                                                 no-undefined
+  4387:15   error  Identifier '_this$_adjustRangeWit' is not in camel case                                                     camelcase
+  4389:15   error  Identifier '_this$_adjustRangeWit2' is not in camel case                                                    camelcase
+  4391:21   error  Identifier '_this$_adjustRangeWit2' is not in camel case                                                    camelcase
+  4392:19   error  Identifier '_this$_adjustRangeWit2' is not in camel case                                                    camelcase
+  4402:64   error  Unexpected use of undefined                                                                                 no-undefined
+  4460:66   error  Unexpected use of undefined                                                                                 no-undefined
+  4461:64   error  Unexpected use of undefined                                                                                 no-undefined
+  4463:15   error  Identifier '_this$_adjustRangeWit3' is not in camel case                                                    camelcase
+  4465:15   error  Identifier '_this$_adjustRangeWit4' is not in camel case                                                    camelcase
+  4467:21   error  Identifier '_this$_adjustRangeWit4' is not in camel case                                                    camelcase
+  4468:19   error  Identifier '_this$_adjustRangeWit4' is not in camel case                                                    camelcase
+  4539:24   error  Expected '===' and instead saw '=='                                                                         eqeqeq
+  4540:24   error  Expected '===' and instead saw '=='                                                                         eqeqeq
+  4556:26   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
+  4559:26   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
+  4624:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  4627:23   error  'set' is already declared in the upper scope                                                                no-shadow
+  4636:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  4639:23   error  'set' is already declared in the upper scope                                                                no-shadow
+  4646:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  4649:23   error  'set' is already declared in the upper scope                                                                no-shadow
+  4659:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  4660:42   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
+  4660:78   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
+  4684:16   error  'MaskedRegExp' is already declared in the upper scope                                                       no-shadow
+  4719:16   error  'MaskedFunction' is already declared in the upper scope                                                     no-shadow
+  4757:7    error  Missing JSDoc @return for function                                                                          valid-jsdoc
+  4760:16   error  'MaskedDynamic' is already declared in the upper scope                                                      no-shadow
+  4806:67   error  Unexpected use of undefined                                                                                 no-undefined
+  4807:64   error  Unexpected use of undefined                                                                                 no-undefined
+  4808:74   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
+  4810:66   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
+  4863:64   error  Unexpected use of undefined                                                                                 no-undefined
+  4977:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  4980:23   error  'set' is already declared in the upper scope                                                                no-shadow
+  4989:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  4992:23   error  'set' is already declared in the upper scope                                                                no-shadow
+  5001:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  5004:23   error  'set' is already declared in the upper scope                                                                no-shadow
+  5020:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  5025:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  5035:23   error  'set' is already declared in the upper scope                                                                no-shadow
+  5042:13   error  Return statement should not contain assignment                                                              no-return-assign
+  5045:30   error  Expected '!==' and instead saw '!='                                                                         eqeqeq
+  5054:23   error  'get' is already declared in the upper scope                                                                no-shadow
+  5057:23   error  'set' is already declared in the upper scope                                                                no-shadow
+  5057:27   error  'overwrite' is defined but never used. Allowed unused args must match /^_/u                                 no-unused-vars
+  5058:11   error  Unexpected console statement                                                                                no-console
+  5087:9    error  Method 'dispatch' expected no return value                                                                  consistent-return
+  5102:59   error  Unexpected use of undefined                                                                                 no-undefined
+  5103:57   error  Unexpected use of undefined                                                                                 no-undefined
+  5125:5    error  'globalThis' is not defined                                                                                 no-undef
+  5151:20   error  'IMask' is not defined                                                                                      no-undef
 
-✖ 1007 problems (1007 errors, 0 warnings)
-  612 errors and 0 warnings potentially fixable with the `--fix` option.
+✖ 395 problems (395 errors, 0 warnings)
 
 npm ERR! code ELIFECYCLE
 npm ERR! errno 1
@@ -1035,4 +422,4 @@ npm ERR! Failed at the israel@1.0.0 test script.
 npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
 
 npm ERR! A complete log of this run can be found in:
-npm ERR!     C:\Users\ACER\AppData\Roaming\npm-cache\_logs\2020-05-11T06_26_31_725Z-debug.log
+npm ERR!     C:\Users\ACER\AppData\Roaming\npm-cache\_logs\2020-05-11T10_12_51_082Z-debug.log
