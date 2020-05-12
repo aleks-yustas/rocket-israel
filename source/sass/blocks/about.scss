@@ -5,6 +5,10 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
+  @media screen and (max-width: $width-tablet) {
+    padding-bottom: 40px;
+  }
 }
 
 .about__wrapper {

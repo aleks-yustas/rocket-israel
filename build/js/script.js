@@ -197,3 +197,57 @@
     'close': closePopup
   };
 })();
+
+(function () {
+  var programmToggler = document.querySelector('.tabs__togglers');
+
+  var tabClickHandler = function (evt) {
+    var target = evt.target.closest('.tabs__toggler');
+
+    if (!target) {
+      return;
+    }
+
+    if (!programmToggler.contains(target)) {
+      return;
+    }
+
+    document.querySelector('.tabs__toggler--active').classList.remove('tabs__toggler--active');
+    target.classList.add('tabs__toggler--active');
+    programms.slideTo(target.dataset.index);
+  };
+
+  var programms = new window.SwiperJS('.tabs__list', {
+    updateOnWindowResize: true,
+    roundLengths: true,
+    simulateTouch: false,
+    centeredSlides: true
+  });
+
+  var togglers = new window.SwiperJS('.tabs__toggler-wrapper', {
+    updateOnWindowResize: true,
+    slideClass: 'tabs__toggler',
+    slideActiveClass: 'tabs__toggler--active',
+    wrapperClass: 'tabs__togglers',
+    slideToClickedSlide: true,
+    breakpoints: {
+      280: {
+        slidesPerView: 'auto',
+        centeredSlides: true,
+        virtualTranslate: false
+      },
+      769: {
+        centeredSlides: false,
+        virtualTranslate: true
+      }
+    }
+  });
+
+  programmToggler.addEventListener('click', tabClickHandler);
+  togglers.controller.control = programms;
+  programms.controller.control = togglers;
+  programms.on('resize', function () {
+    togglers.translateTo(0);
+    togglers.update();
+  });
+})();

@@ -1,10 +1,60 @@
 .tabs {
-  width: 228px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+
+  @media screen and (max-width: $width-tablet) {
+    flex-wrap: wrap;
+  }
+}
+
+.tabs__toggler-wrapper {
+  flex-basis: 228px;
+  flex-shrink: 0;
+  min-width: 228px;
   min-height: 340px;
+  margin: 0 7.5% 0 0;
+
+  @media screen and (max-width: $width-tablet) {
+    position: relative;
+    z-index: 1;
+
+    flex-grow: 1;
+    min-height: 48px;
+    padding: 0;
+    margin: 0 auto 32px;
+
+    overflow: hidden;
+    list-style: none;
+  }
+}
+
+.tabs__togglers {
   padding: 0;
   margin: 0;
 
   list-style: none;
+
+  @media screen and (max-width: $width-tablet) {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.tabs__toggler {
+  flex-shrink: 0;
+  width: auto;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+  transform: translate3d(0, 0, 0);
 }
 
 .tabs__item {
@@ -26,6 +76,20 @@
   text-overflow: ellipsis;
 
   text-decoration: none;
+  cursor: pointer;
+
+  @media screen and (max-width: $width-tablet) {
+    height: 48px;
+    min-width: 120px;
+    padding: 15px 12px 15px 52px;
+    box-sizing: border-box;
+
+    font-size: 16px;
+    line-height: 19px;
+
+    border-radius: 60px;
+    opacity: 0.4;
+  }
 
   &:hover,
   &:focus {
@@ -47,12 +111,18 @@
     background-size: auto;
 
     transform: translateY(-50%);
+
+    @media screen and (max-width: $width-tablet) {
+      left: 12px;
+
+      transform: scale(0.89) translateY(-50%);
+    }
   }
 }
 
-.tabs__item--active,
-.tabs__item--active:hover,
-.tabs__item--active:focus {
+.tabs__toggler--active .tabs__item,
+.tabs__toggler--active .tabs__item:hover,
+.tabs__toggler--active .tabs__item:focus {
   font-weight: 500;
   font-size: 16px;
   font-variant: small-caps;
@@ -60,22 +130,14 @@
   text-transform: lowercase;
 
   text-shadow: $text-shadow;
-  background-image: linear-gradient(142.39deg, #ffc341 20.46%, #ffd701 65.31%);
-  background-size: calc(100% - 30px) 100%;
+  background-image: url("../img/active.svg");
+  background-size: cover;
+  background-position: left center;
   background-repeat: no-repeat;
+  opacity: 1;
 
-  &::after {
-    content: "";
-
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-
-    width: 30px;
-    border-top: 34px solid transparent;
-    border-bottom: 34px solid transparent;
-    border-left: 30px solid $color-yellow--lighten;
+  @media screen and (max-width: $width-tablet) {
+    background-image: linear-gradient(142.39deg, #ffc341 20.46%, #ffd701 65.31%);
   }
 }
 
@@ -87,7 +149,7 @@
   background-position: 0 -36px;
 }
 
-.tabs__item--david-star.tabs__item--active::before {
+.tabs__toggler--active .tabs__item--david-star::before {
   background-position: 0 -72px;
 }
 
@@ -99,7 +161,7 @@
   background-position: -36px -36px;
 }
 
-.tabs__item--academy.tabs__item--active::before {
+.tabs__toggler--active .tabs__item--academy::before {
   background-position: -36px -72px;
 }
 
@@ -111,7 +173,7 @@
   background-position: -72px -36px;
 }
 
-.tabs__item--bag.tabs__item--active::before {
+.tabs__toggler--active .tabs__item--bag::before {
   background-position: -72px -72px;
 }
 
@@ -123,7 +185,7 @@
   background-position: -108px -36px;
 }
 
-.tabs__item--volunteer.tabs__item--active::before {
+.tabs__toggler--active .tabs__item--volunteer::before {
   background-position: -108px -72px;
 }
 
@@ -135,6 +197,46 @@
   background-position: -144px -36px;
 }
 
-.tabs__item--candle-holder.tabs__item--active::before {
+.tabs__toggler--active .tabs__item--candle-holder::before {
   background-position: -144px -72px;
+}
+
+.tabs__list {
+  flex-grow: 1;
+  min-width: 100px;
+}
+
+.tabs__section h3 {
+  margin: 0 0 24px;
+
+  font-family: $font-title;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+
+  color: $color-blue;
+
+  @media screen and (max-width: $width-tablet) {
+    font-size: 24px;
+  }
+}
+
+.tabs__section p {
+  margin: 0 0 1em;
+
+  font-family: $font-text;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 170%;
+
+  color: rgba($color-gray, 0.87);
+
+  @media screen and (max-width: $width-tablet) {
+    font-size: 14px;
+  }
+}
+
+.tabs__section p:last-child {
+  margin: 0;
 }

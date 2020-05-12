@@ -1,0 +1,32 @@
+.programms {
+  padding: 100px 0 30px;
+  margin-bottom: 31px;
+
+  background-image: url("../img/bg-sketch.png");
+  background-position: right 100px;
+  background-size: 50% auto;
+  background-repeat: no-repeat;
+
+  @media screen and (max-width: $width-tablet) {
+    padding-top: 40px;
+
+    background-size: 100% auto;
+    background-position: 40px 140px;
+  }
+}
+
+.programms__wrapper {
+  width: 850px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.programms__title {
+  margin-bottom: 80px;
+
+  @media screen and (max-width: $width-tablet) {
+    margin-bottom: 16px;
+
+    text-align: center;
+  }
+}
