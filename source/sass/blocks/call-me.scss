@@ -1,9 +1,25 @@
 .call-me {
   padding: 209px 0 131px;
-  background-image: url("../img/.png");
-  background-position: left top;
-  background-size: 60% auto;
+  background-image:
+    url("../img/girl-flag.png"),
+    url("../img/bg-backpack.png");
+  background-position:
+    right top,
+    left 130px;
+  background-size:
+    60% auto,
+    auto;
   background-repeat: no-repeat;
+
+  @media screen and (max-width: $width-tablet) {
+    padding: 40px 0 96%;
+    background-position:
+      center bottom,
+      left top;
+    background-size:
+      132% auto,
+      auto;
+  }
 }
 
 .call-me__wrapper {
@@ -14,6 +30,7 @@
 
   @media screen and (max-width: $width-tablet) {
     width: 90%;
+    padding-left: 0;
     padding-bottom: 0;
   }
 }
@@ -21,21 +38,40 @@
 .call-me__inner {
   width: 477px;
   min-height: 254px;
+  margin-bottom: 64px;
+
+  @media screen and (max-width: $width-tablet) {
+    margin: 0 auto;
+    margin-bottom: 24px;
+    max-width: 100%;
+  }
+}
+
+.call-me__description {
+  width: 400px;
+  max-width: 100%;
 }
 
 .call-me__title {
   margin-bottom: 24px;
+
+  @media screen and (max-width: $width-tablet) {
+    text-align: center;
+  }
 }
 
-.call-me__inner {
+.call-me__description p {
+  margin-top: 0;
+
   font-family: $font-text;
   font-weight: 400;
   font-size: 17px;
   line-height: 170%;
 
   color: rgba($color-gray, 0.87);
-}
 
-.call-me__form {
-
+  @media screen and (max-width: $width-tablet) {
+    font-size: 16px;
+    line-height: 160%;
+  }
 }

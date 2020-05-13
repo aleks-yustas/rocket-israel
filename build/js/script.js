@@ -52,13 +52,14 @@
 
 (function () {
   var PHONE_MASK = '{+7} (000) 000 00 00';
+  var PHONE_LENGTH = 18;
+  var VALID_CLASS = 'text-field__input--valid';
+  var INVALID_CLASS = 'text-field__input--invalid';
 
   var callbackForm = document.querySelector('.form-callback');
   var callbackNameInput = callbackForm.querySelector('#callback-name');
   var callbackTelInput = callbackForm.querySelector('#callback-phone');
   var callbackAgreement = callbackForm.querySelector('#callback-agreement');
-  var validClass = 'text-field__input--valid';
-  var invalidClass = 'text-field__input--invalid';
 
   var phoneMask = function (telInput) {
     window.iMaskJS(telInput, {
@@ -67,16 +68,16 @@
   };
 
   var invalidTextFieldHandler = function (evt) {
-    evt.target.classList.add(invalidClass);
+    evt.target.classList.add(INVALID_CLASS);
   };
 
   var changePhoneFieldHandler = function (evt) {
-    if (evt.target.value.length < 18) {
-      evt.target.classList.remove(validClass);
-      evt.target.classList.add(invalidClass);
+    if (evt.target.value.length < PHONE_LENGTH) {
+      evt.target.classList.remove(VALID_CLASS);
+      evt.target.classList.add(INVALID_CLASS);
     } else {
-      evt.target.classList.add(validClass);
-      evt.target.classList.remove(invalidClass);
+      evt.target.classList.add(VALID_CLASS);
+      evt.target.classList.remove(INVALID_CLASS);
     }
   };
 
@@ -86,19 +87,19 @@
 
   var changeTextInputHandler = function (evt) {
     if (evt.target.validity.valid) {
-      evt.target.classList.add(validClass);
+      evt.target.classList.add(VALID_CLASS);
     } else if (evt.target.validity.invalid) {
-      evt.target.classList.add(invalidClass);
+      evt.target.classList.add(INVALID_CLASS);
     }
 
-    if (evt.target.value === '' && evt.target.classList.contains(validClass)) {
-      evt.target.classList.remove(validClass);
+    if (evt.target.value === '' && evt.target.classList.contains(VALID_CLASS)) {
+      evt.target.classList.remove(VALID_CLASS);
     }
   };
 
   var inputTextFieldHandler = function (evt) {
-    if (evt.target.classList.contains(invalidClass)) {
-      evt.target.classList.remove(invalidClass);
+    if (evt.target.classList.contains(INVALID_CLASS)) {
+      evt.target.classList.remove(INVALID_CLASS);
     }
   };
 
@@ -116,8 +117,8 @@
 
   var formReset = function () {
     callbackForm.reset();
-    callbackNameInput.classList.remove(validClass);
-    callbackTelInput.classList.remove(validClass);
+    callbackNameInput.classList.remove(VALID_CLASS);
+    callbackTelInput.classList.remove(VALID_CLASS);
     callbackAgreement.checked = false;
     callbackAgreementInit();
   };
@@ -150,6 +151,21 @@
     'setFocus': setFocus,
     'reset': formReset
   };
+
+  var callMeTelInput = document.querySelector('#call-me-phone');
+  phoneMask(callMeTelInput);
+  callMeTelInput.addEventListener('invalid', invalidTextFieldHandler);
+  callMeTelInput.addEventListener('change', changePhoneFieldHandler);
+  callMeTelInput.addEventListener('input', inputTextFieldHandler);
+  var calMeForm = document.querySelector('.form-call-me');
+  calMeForm.addEventListener('submit', function (evt) {
+    evt.preventDefault();
+
+    calMeForm.reset();
+    callMeTelInput.classList.remove(VALID_CLASS);
+    window.popupSuccess.open();
+  });
+
 })();
 
 (function () {

@@ -22,7 +22,7 @@
   border-radius: 80px;
   border: none;
   background-color: white;
-  outline-offset: 2px;
+  outline: none;
 
   &::placeholder {
     color: rgba($color-gray, 0.5);
@@ -52,6 +52,6 @@
 }
 
 .text-field__input--invalid + .text-field__label,
-.text-field__input--invalid:focus + .text-field__label, {
+.text-field__input--invalid:focus + .text-field__label {
   background-color: rgba($color-red, 0.5);
 }

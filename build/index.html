@@ -118,12 +118,14 @@
     <section class="call-me">
       <div class="call-me__wrapper">
         <div class="call-me__inner">
-          <h2 class="section-title call-me__title">Хочу поехать!</h2>
-          <p>Оставьте свой телефон и мы свяжемся с вами, подберём куратора и ответим на все вопросы!</p>
+          <div class="call-me__description">
+            <h2 class="section-title call-me__title">Хочу поехать!</h2>
+            <p>Оставьте свой телефон и мы свяжемся с вами, подберём куратора и ответим на все вопросы!</p>
+          </div>
           <form action="#" method="POST" class="call-me__form form-call-me">
             <div class="form-call-me__text-field text-field">
-              <input class="text-field__input" type="tel" name="callback-phone" id="callback-phone" placeholder="телефон" pattern="\+7\s?[\(][0-9]{3}[\)]\s?\d{3}\s?\d{2}\s?\d{2}" required="">
-              <label class="text-field__label" for="callback-phone">
+              <input class="text-field__input" type="tel" name="callback-phone" id="call-me-phone" placeholder="телефон" pattern="\+7\s?[\(][0-9]{3}[\)]\s?\d{3}\s?\d{2}\s?\d{2}" required="">
+              <label class="text-field__label" for="call-me-phone">
                 <span class="sr-only">Введите номер телефона</span>
               </label>
             </div>

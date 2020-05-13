@@ -1,9 +1,14 @@
 .form-call-me {
   position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .form-call-me__text-field {
-
+  margin-bottom: 8px;
 }
 
 .form-call-me__submit {
@@ -12,4 +17,10 @@
   right: 0;
 
   width: 216px;
+
+  @media screen and (max-width: $width-tablet) {
+    position: static;
+
+    width: 92%;
+  }
 }
